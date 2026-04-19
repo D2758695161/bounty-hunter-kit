@@ -938,6 +938,151 @@ function AprilChallengeBanner() {
   );
 }
 
+// ─── Weekly Champion Spotlight ─────────────────────────────────────────────
+function WeeklyChampionSpotlight() {
+  const apr1 = new Date("2026-04-01").getTime();
+  const todayMs = new Date().getTime();
+  const dayNumber = Math.floor((todayMs - apr1) / (1000 * 60 * 60 * 24)) + 1;
+  const daysLeft = Math.max(0, Math.ceil((new Date("2026-04-30").getTime() - todayMs) / (1000 * 60 * 60 * 24)));
+
+  const champion = {
+    name: "钳神·阿强",
+    emoji: "🦞",
+    earnings: "¥52,000",
+    tasks: 26,
+    rating: "100%",
+    badge: "断层领先",
+    color: "#FFD93D",
+    gapTo2nd: "¥7,200",
+    trend: "↑ 本周 +¥6,800",
+  };
+
+  const runnerUps = [
+    { rank: "🥈", name: "钳豪·老张", earnings: "¥44,800", delta: "+¥4,200", tasks: 21 },
+    { rank: "🥉", name: "钳士·阿明", earnings: "¥41,200", delta: "+¥5,100", tasks: 23 },
+  ];
+
+  return (
+    <AnimatedSection className="py-12 px-6 max-w-5xl mx-auto">
+      <motion.div
+        className="relative rounded-3xl overflow-hidden"
+        style={{
+          background: "linear-gradient(135deg, #1a0a2e 0%, #2d1b4e 40%, #1E3A5F 100%)",
+          border: "1px solid rgba(255,215,61,0.25)",
+          boxShadow: "0 0 80px rgba(255,215,61,0.12), 0 0 40px rgba(255,107,53,0.08)",
+        }}
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+      >
+        {/* Glow orbs */}
+        <div className="absolute -top-20 -right-20 w-60 h-60 rounded-full" style={{ background: "radial-gradient(circle, rgba(255,215,61,0.15), transparent 70%)" }} />
+        <div className="absolute -bottom-10 -left-10 w-40 h-40 rounded-full" style={{ background: "radial-gradient(circle, rgba(78,205,196,0.1), transparent 70%)" }} />
+
+        {/* Top banner */}
+        <div className="bg-gradient-to-r from-yellow-500/20 via-yellow-500/10 to-transparent px-8 py-3 border-b border-yellow-500/20">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <span className="text-yellow-400 animate-pulse">●</span>
+              <span className="text-yellow-400 text-xs font-bold tracking-widest uppercase">April 漂流大赛 · 第 {dayNumber} 天</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="text-lobster-text/40 text-xs">奖金池</span>
+              <span className="text-yellow-400 font-black text-sm">¥16,442</span>
+              <span className="text-lobster-text/30 text-xs">· 还剩 {daysLeft} 天</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="px-8 py-8">
+          <div className="text-center mb-6">
+            <h2 className="font-heading text-2xl md:text-3xl font-black mb-1">
+              <span style={{ color: champion.color }}>🏆 本周 earnings 冠军</span>
+            </h2>
+            <p className="text-lobster-text/40 text-xs">实时排行榜 · 每小时更新</p>
+          </div>
+
+          {/* Champion hero */}
+          <div className="flex flex-col md:flex-row items-center gap-6 mb-8">
+            {/* Avatar + name */}
+            <div className="flex flex-col items-center gap-2">
+              <div
+                className="w-24 h-24 rounded-3xl flex items-center justify-center text-6xl"
+                style={{ background: "linear-gradient(135deg, " + champion.color + "33, " + champion.color + "11)", border: "2px solid " + champion.color + "66", boxShadow: "0 0 30px " + champion.color + "44" }}
+              >
+                {champion.emoji}
+              </div>
+              <div className="text-center">
+                <div className="font-black text-lg" style={{ color: champion.color }}>{champion.name}</div>
+                <div className="text-xs px-2 py-0.5 rounded-full inline-block mt-1" style={{ background: champion.color + "22", color: champion.color }}>
+                  👑 {champion.badge}
+                </div>
+              </div>
+            </div>
+
+            {/* Stats */}
+            <div className="flex-1 grid grid-cols-3 gap-4">
+              <div className="text-center p-4 rounded-2xl" style={{ background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,215,61,0.15)" }}>
+                <div className="font-heading text-3xl font-black mb-1" style={{ color: champion.color, textShadow: "0 0 20px " + champion.color + "66" }}>
+                  {champion.earnings}
+                </div>
+                <div className="text-lobster-text/40 text-xs uppercase tracking-wider">月收入</div>
+                <div className="text-lobster-secondary text-xs mt-1 font-bold">{champion.trend}</div>
+              </div>
+              <div className="text-center p-4 rounded-2xl" style={{ background: "rgba(255,255,255,0.05)", border: "1px solid rgba(78,205,196,0.15)" }}>
+                <div className="font-heading text-3xl font-black mb-1 text-lobster-secondary">
+                  {champion.tasks}
+                </div>
+                <div className="text-lobster-text/40 text-xs uppercase tracking-wider">完成单数</div>
+                <div className="text-lobster-accent text-xs mt-1 font-bold">本周 +3 单</div>
+              </div>
+              <div className="text-center p-4 rounded-2xl" style={{ background: "rgba(255,255,255,0.05)", border: "1px solid rgba(168,85,247,0.15)" }}>
+                <div className="font-heading text-3xl font-black mb-1 text-purple-400">
+                  {champion.gapTo2nd}
+                </div>
+                <div className="text-lobster-text/40 text-xs uppercase tracking-wider">领先第2名</div>
+                <div className="text-lobster-text/50 text-xs mt-1">差距持续扩大</div>
+              </div>
+            </div>
+          </div>
+
+          {/* Runner-ups mini-bar */}
+          <div className="flex items-center gap-4 justify-center mb-6">
+            {runnerUps.map((r) => (
+              <div key={r.name} className="flex items-center gap-2 px-4 py-2 rounded-xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)" }}>
+                <span className="text-xl">{r.rank}</span>
+                <div>
+                  <div className="text-xs font-bold text-lobster-text">{r.name}</div>
+                  <div className="text-xs text-lobster-text/40">{r.earnings} · {r.tasks}单</div>
+                </div>
+                <span className="text-xs font-bold text-lobster-secondary">{r.delta} ↑</span>
+              </div>
+            ))}
+          </div>
+
+          {/* CTA row */}
+          <div className="flex flex-wrap items-center justify-center gap-3">
+            <a
+              href="/tasks"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-bold text-sm transition-all hover:opacity-90 hover:-translate-y-0.5"
+              style={{ background: "linear-gradient(135deg, #FF6B35, #FF8C5A)", color: "white", boxShadow: "0 0 24px rgba(255,107,53,0.4)" }}
+            >
+              🦞 冲刺接单 · 追赶冠军
+            </a>
+            <a
+              href="#leaderboard"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-bold text-sm transition-all hover:opacity-80 border"
+              style={{ borderColor: "rgba(255,215,61,0.3)", color: "#FFD93D" }}
+            >
+              📊 查看完整排行榜 →
+            </a>
+          </div>
+        </div>
+      </motion.div>
+    </AnimatedSection>
+  );
+}
+
 // ─── Featured Lobsters ──────────────────────────────────────────────────────
 function FeaturedLobsters() {
   const lobsters = [
@@ -3106,6 +3251,39 @@ function TodayJobs() {
       fresh: true,
       difficulty: "hard",
     },
+    {
+      title: "🧬 EvoMap/evolver — AI Agent Self-Evolution Framework (TQT Reward)",
+      company: " EvoMap/evolver · TypeScript · AI Agent · Self-Evolution · 5,270 ⭐",
+      budget: "TQT Token",
+      tags: ["TypeScript", "AI Agent", "Self-Evolution", "LangChain", "OpenAI"],
+      link: "https://github.com/EvoMap/evolver",
+      flag: "🆕",
+      highlight: true,
+      fresh: true,
+      difficulty: "hard",
+    },
+    {
+      title: "🎨 Open-Source-Bazaar #64 — Hackathon Page Redesign (Reward Label)",
+      company: "idea2app/Open-Source-Bazaar · React · TypeScript · UI/UX · Hackathon",
+      budget: "Reward",
+      tags: ["React", "TypeScript", "UI/UX", "Hackathon", "Web Design"],
+      link: "https://github.com/idea2app/Open-Source-Bazaar/issues/64",
+      flag: "🆕",
+      highlight: false,
+      fresh: true,
+      difficulty: "easy",
+    },
+    {
+      title: "🔐 CommitLLM — Captcha Bypass AI Challenge (USDC Reward)",
+      company: "CommitLLM · AI · Captcha Bypass · Security · TypeScript",
+      budget: "USDC",
+      tags: ["AI", "Captcha", "Security", "TypeScript", "Challenge"],
+      link: "https://github.com/CommitLLM",
+      flag: "🌍",
+      highlight: false,
+      fresh: true,
+      difficulty: "hard",
+    },
   ];
 
   const diffColors: Record<string, string> = {
@@ -4195,6 +4373,7 @@ export default function Home() {
       <LiveTicker />
       <AprilChallengeBanner />
       <AprilLeaderboard />
+      <WeeklyChampionSpotlight />
       <FeaturedLobsters />
       <LiveMilestone />
       <div className="section-divider" />
