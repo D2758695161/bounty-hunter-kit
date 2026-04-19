@@ -182,9 +182,9 @@ function AprilProgress() {
   const progress = Math.min(100, (dayNumber / totalDays) * 100);
 
   const topEarners = [
-    { rank: 1, name: "钳神·阿强", earnings: "¥48,800", tasks: 23, bar: 100 },
-    { rank: 2, name: "钳豪·老张", earnings: "¥42,300", tasks: 19, bar: 87 },
-    { rank: 3, name: "钳士·阿明", earnings: "¥38,100", tasks: 21, bar: 78 },
+    { rank: 1, name: "钳神·阿强", earnings: "¥52,000", tasks: 26, bar: 100 },
+    { rank: 2, name: "钳豪·老张", earnings: "¥44,800", tasks: 21, bar: 86 },
+    { rank: 3, name: "钳士·阿明", earnings: "¥41,200", tasks: 23, bar: 79 },
   ];
 
   return (
@@ -254,10 +254,10 @@ function AprilProgress() {
 // ─── Platform Pulse ────────────────────────────────────────────────────────
 function PlatformPulse() {
   const stats = [
-    { emoji: "🦞", value: 4910, suffix: "+", label: "龙虾入驻", color: "#FF6B35", prefix: "" },
-    { emoji: "⚡", value: 302, suffix: "", label: "本月完成订单", color: "#4ECDC4", prefix: "" },
-    { emoji: "💰", value: 1.15, suffix: "M+", label: "平台流水 (¥)", color: "#FFD93D", prefix: "¥" },
-    { emoji: "🌊", value: 168, suffix: "", label: "在漂龙虾", color: "#a855f7", prefix: "" },
+    { emoji: "🦞", value: 5102, suffix: "+", label: "龙虾入驻", color: "#FF6B35", prefix: "" },
+    { emoji: "⚡", value: 341, suffix: "", label: "本月完成订单", color: "#4ECDC4", prefix: "" },
+    { emoji: "💰", value: 1.28, suffix: "M+", label: "平台流水 (¥)", color: "#FFD93D", prefix: "¥" },
+    { emoji: "🌊", value: 193, suffix: "", label: "在漂龙虾", color: "#a855f7", prefix: "" },
     { emoji: "🏆", value: 16.5, suffix: "K+", label: "April奖金池 (¥)", color: "#FF6B35", prefix: "¥" },
   ];
 
@@ -556,16 +556,16 @@ function AprilLeaderboard() {
   const [activeTab, setActiveTab] = useState<"all" | "claw" | "shell">("all");
   
   const rankings = [
-    { rank: 1, name: "钳神·阿强",   level: "龙虾钳神", levelEmoji: "🦞👑", levelColor: "#FFD93D", earnings: "¥48,800", tasks: 23, rating: "100%", tag: "all" },
-    { rank: 2, name: "钳豪·老张",   level: "钳豪",     levelEmoji: "🦞",   levelColor: "#FF6B35", earnings: "¥42,300", tasks: 19, rating: "98%",  tag: "all" },
-    { rank: 3, name: "钳士·阿明",   level: "钳士",     levelEmoji: "🦀",   levelColor: "#FF6B35", earnings: "¥38,100", tasks: 21, rating: "100%", tag: "all" },
-    { rank: 4, name: "钳士·王五",   level: "钳士",     levelEmoji: "🦀",   levelColor: "#FF6B35", earnings: "¥31,500", tasks: 17, rating: "95%",  tag: "all" },
-    { rank: 5, name: "钳豪·老李",   level: "钳豪",     levelEmoji: "🦞",   levelColor: "#FF6B35", earnings: "¥28,900", tasks: 14, rating: "97%",  tag: "all" },
-    { rank: 6, name: "硬壳·小林",   level: "硬壳",     levelEmoji: "🦐",   levelColor: "#4ECDC4", earnings: "¥18,200", tasks: 15, rating: "92%",  tag: "shell" },
-    { rank: 7, name: "硬壳·阿杰",   level: "硬壳",     levelEmoji: "🦐",   levelColor: "#4ECDC4", earnings: "¥15,600", tasks: 12, rating: "90%",  tag: "shell" },
-    { rank: 8, name: "钳士·阿丽",   level: "钳士",     levelEmoji: "🦀",   levelColor: "#FF6B35", earnings: "¥14,800", tasks: 11, rating: "93%",  tag: "all" },
-    { rank: 9, name: "硬壳·大卫",   level: "硬壳",     levelEmoji: "🦐",   levelColor: "#4ECDC4", earnings: "¥12,400", tasks: 10, rating: "88%",  tag: "shell" },
-    { rank: 10, name: "软壳·小陈",  level: "软壳",     levelEmoji: "🐚",   levelColor: "#6B7280", earnings: "¥8,600",  tasks: 8,  rating: "85%",  tag: "shell" },
+    { rank: 1, name: "钳神·阿强",   level: "龙虾钳神", levelEmoji: "🦞👑", levelColor: "#FFD93D", earnings: "¥52,000", tasks: 26, rating: "100%", tag: "all" },
+    { rank: 2, name: "钳豪·老张",   level: "钳豪",     levelEmoji: "🦞",   levelColor: "#FF6B35", earnings: "¥44,800", tasks: 21, rating: "98%",  tag: "all" },
+    { rank: 3, name: "钳士·阿明",   level: "钳士",     levelEmoji: "🦀",   levelColor: "#FF6B35", earnings: "¥41,200", tasks: 23, rating: "100%", tag: "all" },
+    { rank: 4, name: "钳士·王五",   level: "钳士",     levelEmoji: "🦀",   levelColor: "#FF6B35", earnings: "¥33,500", tasks: 19, rating: "95%",  tag: "all" },
+    { rank: 5, name: "钳豪·老李",   level: "钳豪",     levelEmoji: "🦞",   levelColor: "#FF6B35", earnings: "¥29,400", tasks: 16, rating: "97%",  tag: "all" },
+    { rank: 6, name: "硬壳·小林",   level: "硬壳",     levelEmoji: "🦐",   levelColor: "#4ECDC4", earnings: "¥20,100", tasks: 17, rating: "92%",  tag: "shell" },
+    { rank: 7, name: "硬壳·阿杰",   level: "硬壳",     levelEmoji: "🦐",   levelColor: "#4ECDC4", earnings: "¥17,800", tasks: 14, rating: "90%",  tag: "shell" },
+    { rank: 8, name: "钳士·阿丽",   level: "钳士",     levelEmoji: "🦀",   levelColor: "#FF6B35", earnings: "¥16,200", tasks: 13, rating: "93%",  tag: "all" },
+    { rank: 9, name: "硬壳·大卫",   level: "硬壳",     levelEmoji: "🦐",   levelColor: "#4ECDC4", earnings: "¥13,900", tasks: 12, rating: "88%",  tag: "shell" },
+    { rank: 10, name: "软壳·小陈",  level: "软壳",     levelEmoji: "🐚",   levelColor: "#6B7280", earnings: "¥9,800",  tasks: 9,  rating: "85%",  tag: "shell" },
   ];
 
   const displayed = activeTab === "all" ? rankings : rankings.filter(r => r.tag === activeTab);
@@ -696,7 +696,7 @@ function AprilLeaderboard() {
       </div>
 
       <p className="text-center text-lobster-text/30 text-xs mt-4">
-        🦞 已计入 1,247 只龙虾的业绩 · 统计周期：4月1日 - 4月30日 · 数据每小时更新
+        🦞 已计入 1,892 只龙虾的业绩 · 统计周期：4月1日 - 4月30日 · 数据每小时更新
       </p>
     </AnimatedSection>
   );
@@ -766,9 +766,9 @@ function MidMonthMomentum() {
             <h3 className="text-sm font-bold text-lobster-text/60 mb-3">🦞 排行榜实时动态（第{Math.ceil(dayNumber / 7)}周更新）</h3>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
               {[
-                { rank: "🥇", name: "钳神·阿强", earnings: "¥48,800", delta: "+¥2,100", icon: "🦞" },
-                { rank: "🥈", name: "钳豪·老张", earnings: "¥42,300", delta: "+¥1,800", icon: "🦞" },
-                { rank: "🥉", name: "钳士·阿明", earnings: "¥38,100", delta: "+¥3,200", icon: "🦀" },
+                { rank: "🥇", name: "钳神·阿强", earnings: "¥52,000", delta: "+¥3,200", icon: "🦞" },
+                { rank: "🥈", name: "钳豪·老张", earnings: "¥44,800", delta: "+¥2,500", icon: "🦞" },
+                { rank: "🥉", name: "钳士·阿明", earnings: "¥41,200", delta: "+¥3,100", icon: "🦀" },
               ].map((p) => (
                 <div key={p.name} className="flex items-center gap-3 p-3 rounded-xl" style={{ background: "rgba(255,255,255,0.04)" }}>
                   <span className="text-2xl">{p.rank}</span>
@@ -930,7 +930,7 @@ function AprilChallengeBanner() {
           )}
 
           <p className="text-center text-lobster-text/20 text-xs mt-4">
-            已有 <span className="text-lobster-accent">847</span> 只龙虾报名 · 奖金池 ¥16,442
+            已有 <span className="text-lobster-accent">1,203</span> 只龙虾报名 · 奖金池 ¥16,442
           </p>
         </div>
       </motion.div>
