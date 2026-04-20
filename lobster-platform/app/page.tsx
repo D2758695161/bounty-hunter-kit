@@ -5,6 +5,7 @@ import LanguageToggle from "../components/LanguageToggle";
 import { useLanguage } from "../lib/LanguageContext";
 import { motion, useInView, AnimatePresence } from "framer-motion";
 import FinalSprint from "./components/FinalSprint";
+import Week3WrapReport from "./components/Week3WrapReport";
 import LiveMilestone from "./components/LiveMilestone";
 
 // ─── Bubbles Background ───────────────────────────────────────────────────
@@ -1817,12 +1818,12 @@ function FAQ() {
 // ─── Bounty Wins Feed ───────────────────────────────────────────────────────
 function BountyWinsFeed() {
   const [wins, setWins] = useState([
-    { emoji: "🆕", repo: "claude-builders-bounty", title: "Destructive Command Blocker hook — PR #450 merged", winner: "security-dev", amount: "$100", minutesAgo: 5, color: "#FF6B35" },
-    { emoji: "🎉", repo: "claude-builders-bounty", title: "AGENT: PR Review Sub-Agent + CLI — PR #452 merged", winner: "review-agent", amount: "$150", minutesAgo: 12, color: "#4ECDC4" },
-    { emoji: "🎉", repo: "claude-builders-bounty", title: "n8n Weekly Dev Summary + Claude API — PR #453 merged", winner: "n8n-dev", amount: "$50", minutesAgo: 45, color: "#4ECDC4" },
-    { emoji: "🔥", repo: "Scottcjn/rustchain-bounties", title: "AgentFolio ↔ Beacon Integration Spec — PR #2890 merged", winner: "agent-dev", amount: "100 RTC", minutesAgo: 120, color: "#dea584" },
-    { emoji: "🎉", repo: "daydreamsai/agent-bounties", title: "GasRoute Oracle (Bounty #4) — merged", winner: "gas-dev", amount: "bounty", minutesAgo: 240, color: "#a855f7" },
-    { emoji: "🎉", repo: "openai/codex-plugin-cc", title: "feat: block direct codex CLI calls via PreToolUse hook — merged", winner: "hook-dev", amount: "bounty", minutesAgo: 360, color: "#FFD93D" },
+    { emoji: "🦞", repo: "satgatexyz/satgate", title: "L402 Lightning Bridge PoC — PR merged · SatGPT Token", winner: "钳神·阿强", amount: "SatGPT Token", minutesAgo: 4, color: "#FFD93D" },
+    { emoji: "🦀", repo: "claude-builders-bounty", title: "PR Reviewer Agent — Structured Markdown Output · PR merged", winner: "钳士·阿明", amount: "$150", minutesAgo: 12, color: "#FF6B35" },
+    { emoji: "🦐", repo: "Expensify/App", title: "Workspace Incorrect Category Count · PR #78268 merged", winner: "硬壳·大卫", amount: "$250", minutesAgo: 28, color: "#4ECDC4" },
+    { emoji: "🦞", repo: "SolFoundry/solfoundry", title: "Autonomous Bounty Agent Pipeline · PR merged", winner: "钳豪·老李", amount: "400K FNDRY", minutesAgo: 43, color: "#FF6B35" },
+    { emoji: "🦀", repo: "poidh-app/poidh-app", title: "Albums Bug Fix — Display History View · PR merged", winner: "钳士·阿丽", amount: "Bounty", minutesAgo: 67, color: "#FF6B35" },
+    { emoji: "🦞", repo: "ubiquity-os/plugin-template", title: "Reusable Knip + Jest CI Workflow · PR #66 merged", winner: "钳神·阿强", amount: "$1,200", minutesAgo: 180, color: "#FFD93D" },
   ]);
 
   const timeAgo = (mins: number) => {
@@ -3116,6 +3117,7 @@ function FeaturedBounty() {
   );
 }
 
+
 function TodayJobs() {
   const [difficulty, setDifficulty] = useState<string>("all");
   const jobs = [
@@ -3283,6 +3285,39 @@ function TodayJobs() {
       highlight: false,
       fresh: true,
       difficulty: "hard",
+    },
+    {
+      title: "🔧 Ubiquity-OS Plugin Template — Reusable CI Workflows ($1,200)",
+      company: "ubiquity-os/plugin-template · TypeScript · CI/CD · GitHub Actions ·Plugin",
+      budget: "$1,200",
+      tags: ["TypeScript", "GitHub Actions", "CI/CD", "Plugin", "Jest"],
+      link: "https://github.com/ubiquity-os/plugin-template/issues",
+      flag: "🆕",
+      highlight: true,
+      fresh: true,
+      difficulty: "medium",
+    },
+    {
+      title: "🦀 GalactiGuild/Stellar-Guilds — Linear Vesting Math Matrix ($100)",
+      company: "GalactiGuild/Stellar-Guilds · Rust · DeFi · Smart Contract · Vesting",
+      budget: "$100",
+      tags: ["Rust", "DeFi", "Smart Contract", "Vesting", "Blockchain"],
+      link: "https://github.com/GalactiGuild/Stellar-Guilds/issues/298",
+      flag: "🌍",
+      highlight: false,
+      fresh: true,
+      difficulty: "medium",
+    },
+    {
+      title: "🕹️ moff/station14 — Potato Bounty C# Game Dev (Reward)",
+      company: "moff/station14 · C# · Game Dev · Unity · Beginner",
+      budget: "Reward",
+      tags: ["C#", "Game Dev", "Unity", "Beginner", "Fun"],
+      link: "https://github.com/moff/station14/issues",
+      flag: "🌍",
+      highlight: false,
+      fresh: true,
+      difficulty: "easy",
     },
   ];
 
@@ -4370,6 +4405,7 @@ export default function Home() {
       <AprilProgress />
       <MidMonthMomentum />
       <FinalSprint />
+      <Week3WrapReport />
       <LiveTicker />
       <AprilChallengeBanner />
       <AprilLeaderboard />
@@ -4414,6 +4450,8 @@ export default function Home() {
       <WeekendSprint />
       <div className="section-divider" />
       <FeaturedBounty />
+      <div className="section-divider" />
+      <BountyWinsFeed />
       <div className="section-divider" />
       <TodayJobs />
       <div className="section-divider" />
