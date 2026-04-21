@@ -1,0 +1,31 @@
+{
+  "researchDate": "2026-04-20T22:19:00Z",
+  "researchTime": "2026-04-21 06:19 Asia/Shanghai",
+  "sourcesChecked": {
+    "github_api": {"status": "TOKEN_INVALID", "note": "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 returned 401"},
+    "github_web": {"status": "PARTIAL", "note": "Trending page accessible via Playwright"},
+    "product_hunt": {"status": "BLOCKED", "note": "Cloudflare security challenge"},
+    "opire": {"status": "NOT_FOUND", "note": "404 page not found"},
+    "rapidapi": {"status": "BLOCKED", "note": "404 page not found"},
+    "gitcoin": {"status": "OK", "data": "Grants 24, research publications, AI + Public Goods theme"},
+    "open_collective": {"status": "OK", "data": "41 orgs, 10K+ collectives, $40M managed"},
+    "label_studio": {"status": "OK", "data": "500k+ users, 20k+ slack, 27k stars, NEW: agentic AI tracing templates"},
+    "lemon_squeezy": {"status": "OK", "data": "Payments/tax/subs for SaaS, no-code + API solutions"},
+    "pi_hole": {"status": "OK", "data": "57k stars, 25 open issues"}
+  },
+  "trendingRepos": [
+    "FinceptTerminal - finance analytics, 9.3k stars, Python",
+    "RuView - WiFi DensePose, 48k stars, Rust/ML",
+    "thunderbolt - AI You Control, 2.8k stars, TypeScript",
+    "paperless-ngx - document mgmt, 39k stars, Python",
+    "worldmonitor - AI news aggregation, 50k stars, TypeScript",
+    "openai-agents-python - 23.9k stars, 44 issues, 25 PRs",
+    "DeepGEMM - CUDA FP8 GEMM, 6.8k stars",
+    "pi-hole - 57k stars, 25 open issues"
+  ],
+  "bountyPlatforms": [
+    {"name": "Gitcoin", "status": "active", "note": "Grants 24 ongoing"},
+    {"name": "Layer51", "status": "no_content"},
+    {"name": "Opire", "status": "not_found"}
+  ]
+}

@@ -1,5 +1,5 @@
 # Opire Bounty Hunter — Advanced Strategy Guide
-## v2.0 | Updated: 2026-04-20
+## v2.1 | Updated: 2026-04-21
 
 ---
 
@@ -13,25 +13,25 @@ Opire (opire.io) 是目前最高产的 Bounty 平台之一，特点：
 
 ---
 
-## 📋 当前高价值 Opire Bounties（2026年4月20日）
+## 📋 当前高价值 Opire Bounties（2026年4月21日）
 
 ### 🔥 最高优先级
 
-#### 1. Autonomous Bounty-Hunting Agent (¥8,000 CNY)
+#### 1. Autonomous Bounty-Hunting Agent (¥8,000 CNY) 🆕
 - **Repo**: opire-app/bounty-platform
-- **描述**: 全自动 PR 提交机器人
+- **描述**: 全自动 PR 提交机器人，监控→评估→Fork→实现→PR
 - **要求**: GitHub API 自动化 + AI Agent 经验
 - **难度**: ⭐⭐⭐⭐ (4/5)
 - **建议用时**: 3-5 天
 
-#### 2. poidh-app Albums Bug Fix ($50-200)
-- **Repo**: poidh-app/poidh
-- **描述**: Albums 组件 Bug Fix，零门槛入门
-- **要求**: 任何编程语言均可
-- **难度**: ⭐⭐ (2/5)
-- **建议用时**: 2-4 小时
+#### 2. AI Video Generator SaaS Landing Page (¥12,000 CNY) 🆕
+- **来源**: 流浪龙虾平台
+- **描述**: 全栈 SaaS 落地页，Next.js + Stripe 订阅支付
+- **要求**: Next.js + Stripe 完整项目经验
+- **难度**: ⭐⭐⭐ (3/5)
+- **建议用时**: 2-3 天
 
-#### 3. SolFoundry T1-T3 系列（FNDRY 代币）
+#### 3. SolFoundry T1-T3 系列（FNDRY 代币，$1,000+ USD）
 - **T1 Animated GIF**: 100K FNDRY
 - **T2 Multi-Agent**: 200K FNDRY  
 - **T3 AI Code Review**: 400K FNDRY
@@ -125,12 +125,27 @@ echo "开始实现..."
 
 ---
 
-## 🎯 本周重点任务
+## 🎯 本周重点任务（April 第3周）
 
-1. **poidh-app Albums Bug Fix** — 零门槛入门，2小时完成，$50-200
+1. **AI Video Generator SaaS** — ¥12,000 CNY，全栈落地页，新发布
 2. **Autonomous Bounty-Hunting Agent** — ¥8,000 CNY，AI Agent 项目推荐
-3. **midnight #323/324/326** — $466 USDT，已验证可做
+3. **SatGate L402 Lightning Bridge** — $3,000 USDC，Stellar 生态
+4. **SolFoundry T3 AI Code Review** — 400K FNDRY + USDC，高价值
 
 ---
 
-_更新于 2026-04-20 · 基于 platform-dev-001 cron_
+## 🆕 April 21 新增线索
+
+**DeepSeek 模型发布后的新机会：**
+- AI Agent 开发需求激增（LangChain/RAG/MCP 相关）
+- MCP Server 集成任务批量出现（¥8,000-22,000 CNY）
+- Cursor IDE 插件开发需求上涨（¥4,500-15,000 CNY）
+
+**重点关注 Repo：**
+- `thunderbird/thunderbolt` — AI Agent 框架，2.7k stars
+- `openai/openai-agents-python` — v0.14.0 新发布，MCP 集成机会
+- `arkadiyt/bounty-targets-data` — Bug bounty 范围数据更新
+
+---
+
+_更新于 2026-04-21 · 基于 platform-dev-001 cron_

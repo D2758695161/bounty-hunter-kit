@@ -1,0 +1,116 @@
+{
+  "scrapedAt": "2026-04-20T12:24:00Z",
+  "sources": [
+    "https://github.com/sponsors/explore",
+    "https://github.com/sponsors?絞り=featured"
+  ],
+  "projects": [
+    {
+      "name": "psutil",
+      "sponsor": "Giampaolo Rodola",
+      "url": "https://github.com/sponsors/giampaolo",
+      "repoUrl": "https://github.com/giampaolo/psutil",
+      "description": "Cross-platform lib for process and system monitoring in Python. One of top 100 most-downloaded PyPI packages with 300M+ downloads/month. Used by TensorFlow, PyTorch, Home Assistant, Ansible, Apache Airflow, Sentry, and 760K+ GitHub repos.",
+      "whatTheyNeed": "Code contributions, bug fixes, cross-platform testing (especially BSD/Solaris/AIX). Also documentation improvements and PR reviews.",
+      "funding": "GitHub Sponsors page with tiered sponsorship (logo/name placement in README for sponsors). No explicit goal stated.",
+      "howToContribute": "Open PRs on https://github.com/giampaolo/psutil. Also sponsor via GitHub Sponsors or Patreon."
+    },
+    {
+      "name": "Compiler Explorer (Godbolt)",
+      "sponsor": "Matt Godbolt",
+      "url": "https://github.com/sponsors/compiler-explorer",
+      "repoUrl": "https://github.com/compiler-explorer/compiler-explorer",
+      "description": "Interactive compiler exploration website - see how C++, Rust, Go, D, Haskell, Swift, Python and 30+ languages compile to assembly in real time. Handles 3M+ compilations per week at godbolt.org.",
+      "whatTheyNeed": "Code contributions (TypeScript/Node.js), adding new compilers/languages, new features, bug fixes, documentation. Also financial support for server costs.",
+      "funding": "Patreon, GitHub Sponsors, PayPal, and Compiler Explorer merch store. Server costs are significant due to high traffic.",
+      "howToContribute": "Read CONTRIBUTING.md, docs/ folder for adding compilers/languages. Contact via GitHub issues. Also sponsor financially."
+    },
+    {
+      "name": "refine",
+      "sponsor": "refinedev",
+      "url": "https://github.com/sponsors/refinedev",
+      "repoUrl": "https://github.com/refinedev/refine",
+      "description": "React meta-framework for building internal tools, admin panels, dashboards & B2B apps. Headless architecture with 15+ backend connectors. Has AI agent for project generation.",
+      "whatTheyNeed": "Contributors for the framework. The sponsor page mentions 'Contributor' tier suggesting code/test/docs contributions are welcome. Goal is $10K/month (currently at 1%).",
+      "funding": "$10,000/month goal on GitHub Sponsors. Currently 1% funded.",
+      "howToContribute": "Open source contributions to refine framework. Check their GitHub for good first issues."
+    },
+    {
+      "name": "fl_chart",
+      "sponsor": "Iman Khoshabi (imaN Neo)",
+      "url": "https://github.com/sponsors/imaNNeo",
+      "repoUrl": "https://github.com/imaNNeo/fl_chart",
+      "description": "Highly customizable Flutter chart library (Line, Bar, Pie, Scatter, Radar charts). Active YouTube channel with Flutter tutorials.",
+      "whatTheyNeed": "Documentation improvements, new chart types (see open 'New Chart Request' issues), more samples, fixing important issues, improving the live web app at app.flchart.dev (needs Windows/Linux/Mac/Android/iOS support).",
+      "funding": "GitHub Sponsors - any support frees up maintainer's time for the project.",
+      "howToContribute": "Work on open issues at https://github.com/imaNNeo/fl_chart/issues, particularly sorted by reactions. Documentation contributions also needed."
+    },
+    {
+      "name": "Keebio",
+      "sponsor": "Danny (bakingpy)",
+      "url": "https://github.com/sponsors/keebio",
+      "repoUrl": "https://github.com/keebio",
+      "description": "Mechanical keyboard designer specializing in split keyboards. QMK Firmware collaborator, maintains QMK Toolbox, KiCAD footprints library, keyboard case designs, and Plate Generator web tool.",
+      "whatTheyNeed": "Help maintain QMK firmware PRs, work on keyboard PCB design tools, open-source PCB designs. More time for cool keyboard designs and repository maintenance.",
+      "funding": "GitHub Sponsors - sponsorships allow more time for open source work and design projects.",
+      "howToContribute": "Contribute to QMK firmware, work on keyboard-related open source repos, or sponsor financially."
+    },
+    {
+      "name": "Django Girls",
+      "sponsor": "Django Girls non-profit",
+      "url": "https://github.com/sponsors/DjangoGirls",
+      "repoUrl": "https://github.com/django-girls",
+      "description": "Global non-profit empowering women to organize free programming workshops. Volunteer-run with hundreds of contributors. Remote-friendly post-pandemic.",
+      "whatTheyNeed": "Volunteers, workshop organizers, mentors. Funding for Awesomeness Ambassador, workshop materials, participant learning resources, and anti-racist systems/processes.",
+      "funding": "GitHub Sponsors - funds staff, materials, and merchandise subsidies for developing countries.",
+      "howToContribute": "Volunteer at djangogirls.org, organize workshops, contribute to materials, or sponsor financially."
+    },
+    {
+      "name": "Zen Browser",
+      "sponsor": "Zen Browser team",
+      "url": "https://github.com/sponsors/zen-browser",
+      "repoUrl": "https://github.com/zen-browser",
+      "description": "Minimalist, distraction-free web browser built for privacy and user-first experience. Ad-free, independent.",
+      "whatTheyNeed": "Financial contributions to cover server costs, ongoing development, and community support. Maintainers need funding to stay independent.",
+      "funding": "Donations via GitHub Sponsors. Every contribution helps keep them ad-free and independent.",
+      "howToContribute": "Sponsor financially or contribute to the browser's open source development."
+    },
+    {
+      "name": "qgis2web",
+      "sponsor": "qgis2web maintainer",
+      "url": "https://github.com/sponsors/qgis2web",
+      "repoUrl": "https://github.com/qgis2web/qgis2web",
+      "description": "QGIS to web map conversion plugin. Essential tool for GIS professionals publishing maps online.",
+      "whatTheyNeed": "Code contributions, bug fixes, and funding. Maintainer explicitly says 'your payment will be dedicated entirely to the development of the software.' Also available via opengis.it.",
+      "funding": "GitHub Sponsors or alternative payment page at opengis.it/buy-me-a-coffee/.",
+      "howToContribute": "Sponsor financially or contribute code via GitHub. Alternative: opengis.it/buy-me-a-coffee/."
+    },
+    {
+      "name": "nutti (Magic UV, fake-bpy-module)",
+      "sponsor": "nutti",
+      "url": "https://github.com/sponsors/nutti",
+      "repoUrl": "https://github.com/nutti",
+      "description": "Indie developer creating Blender add-ons and Unreal Engine extensions. Magic UV merged into Blender itself. fake-bpy-module essential for add-on development. Screencast Keys popular among tutorial creators.",
+      "whatTheyNeed": "Feedback and user testing. Sponsorships allow more time for developing useful software.",
+      "funding": "GitHub Sponsors - feedback via sponsors helps maintainer engage more.",
+      "howToContribute": "Use the add-ons, provide feedback via GitHub, sponsor financially."
+    },
+    {
+      "name": "Githooks",
+      "sponsor": "Gabriel Nützi (gabyx)",
+      "url": "https://github.com/sponsors/gabyx",
+      "repoUrl": "https://github.com/gabyx/Githooks",
+      "description": "Per-repo and shared Git hooks with version control and auto-update. Nix evangelist working on Rust/Go/C++ projects.",
+      "whatTheyNeed": "Contributors and sponsors. Goal: 20 monthly sponsors (currently 2). Sponsorship enables more features and contributions across projects.",
+      "funding": "GitHub Sponsors goal: 20 monthly sponsors (currently 10%). Logo/name in project README for sponsors.",
+      "howToContribute": "Contribute to Githooks or other projects. Sponsor to reach 20 sponsor goal."
+    }
+  ],
+  "notes": [
+    "GitHub Sponsors explore page shows ~25 featured sponsors.",
+    "The 'seeking contributors' / 'looking for maintainers' labels are not explicitly displayed on the explore page - these labels appear in individual sponsor profiles.",
+    "Most projects have explicit funding goals or sponsorship tiers on GitHub Sponsors.",
+    "Browser automation (Playwright) was blocked by existing Chrome instance; used web_fetch as fallback.",
+    "Several sponsors are not accepting contributions (require login to view or no specific contributor info)."
+  ]
+}

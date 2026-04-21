@@ -1,0 +1,61 @@
+const https = require('https');
+const fs = require('fs');
+
+const TOKEN = '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';
+
+function api(method, path, data) {
+  return new Promise((resolve, reject) => {
+    const url = new URL(path, 'https://api.github.com');
+    const opts = { hostname: url.hostname, path: url.pathname, method, headers: { 'Authorization': `token ${TOKEN}`, 'User-Agent': 'lobster', 'Accept': 'application/vnd.github.v3+json' } };
+    if (data) {
+      const body = JSON.stringify(data);
+      opts.headers['Content-Type'] = 'application/json';
+      opts.headers['Content-Length'] = Buffer.byteLength(body);
+      const req = https.request(opts, (res) => {
+        let d = ''; res.on('data', c => d += c);
+        res.on('end', () => { try { resolve({status: res.statusCode, data: JSON.parse(d)}); } catch(e) { resolve({status: res.statusCode, data: d}); } });
+      });
+      req.on('error', reject); req.write(body); req.end();
+    } else {
+      const req = https.request(opts, (res) => {
+        let d = ''; res.on('data', c => d += c);
+        res.on('end', () => { try { resolve({status: res.statusCode, data: JSON.parse(d)}); } catch(e) { resolve({status: res.statusCode, data: d}); } });
+      });
+      req.on('error', reject); req.end();
+    }
+  });
+}
+
+async function upload(content64, path, msg) {
+  // Check if exists first
+  let sha;
+  try {
+    const r = await api('GET', `/repos/D2758695161/wander-lobster-platform/contents/${path}?ref=gh-pages`);
+    if (r.status === 200 && r.data.sha) sha = r.data.sha;
+  } catch(e) {}
+  
+  const data = { message: msg, content: content64, branch: 'gh-pages' };
+  if (sha) data.sha = sha;
+  
+  const r = await api('PUT', `/repos/D2758695161/wander-lobster-platform/contents/${path}`, data);
+  return r;
+}
+
+async function main() {
+  const files = [
+    ['digital-products.html', 'Update digital products page'],
+    ['products/ai-bounty-blueprint.md', 'Add bounty blueprint'],
+    ['products/payment-proof-demo.png', 'Add payment proof'],
+  ];
+  
+  for (const [file, msg] of files) {
+    const localPath = 'C:/Users/Administrator/.openclaw/workspace/lobster-platform/out/' + file;
+    if (!fs.existsSync(localPath)) { console.log('MISSING: ' + localPath); continue; }
+    const content = fs.readFileSync(localPath);
+    const encoded = content.toString('base64');
+    const r = await upload(encoded, file, msg);
+    console.log(r.status === 200 || r.status === 201 ? '✓ ' + file : '✗ ' + file + ': ' + (r.data.message || JSON.stringify(r.data).slice(0,100)));
+  }
+}
+
+main().catch(console.error);

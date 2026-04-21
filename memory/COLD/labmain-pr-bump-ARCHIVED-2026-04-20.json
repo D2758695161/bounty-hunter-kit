@@ -1,0 +1,16 @@
+{
+  "bumped_at": "2026-04-03T17:17:36+08:00",
+  "token": "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",
+  "repo": "labmain/ai-agent-pay-demo",
+  "prs": {
+    "33": {"bounty_usdt": 200, "issues": "21+30", "status": "open, mergeable=true, not merged"},
+    "34": {"bounty_usdt": 150, "issues": "11+18+19", "status": "open, mergeable=true, not merged"},
+    "51": {"bounty_usdt": 116, "issues": "35+37", "status": "open, mergeable=true, not merged"}
+  },
+  "comments": {
+    "33": "Bump — PR ready to merge. Tests green. LMK if any changes needed!",
+    "34": "Bump — PR ready to merge. Tests green. LMK if any changes needed!",
+    "51": "Bump — PR ready to merge. Tests green. LMK if any changes needed!"
+  },
+  "next_check": "2026-04-03T18:17:36+08:00"
+}

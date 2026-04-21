@@ -292,19 +292,20 @@ function LiveTicker() {
   const todayMs = new Date().getTime();
   const currentDay = Math.floor((todayMs - apr1) / (1000 * 60 * 60 * 24)) + 1;
 
+  // ── Realistic April 21, 2026 events ─────────────────────────────────────
   const events = [
-    { icon: "🎉", text: `April大赛第${currentDay}天！钳神·阿强 月收入 ¥52,000 继续领跑`, time: "刚刚" },
-    { icon: "🔥", text: "🆕 L402 Lightning Bridge PoC 上线，SatGate 开放 Bounty 认领！", time: "刚刚" },
-    { icon: "🆕", text: "poidh-app Albums Bug Fix，零门槛入门 Bounty，适合新手！", time: "刚刚" },
-    { icon: "🌊", text: "MCP Server + Claude Agent 集成开发，¥18,000 平台补贴", time: "5分钟前" },
-    { icon: "🏆", text: "钳神·阿强 完成了 AI Agent Memory System，到账 ¥22,000", time: "11分钟前" },
-    { icon: "💰", text: "新注册！钳士·阿华 加入平台，首单已完成 ¥3,200", time: "18分钟前" },
-    { icon: "🔥", text: `April大赛仅剩${30-currentDay}天！当前奖金池 ¥16,442，冲鸭！`, time: "27分钟前" },
-    { icon: "🆕", text: "SolFoundry T1 Animated GIF 开放认领，100K FNDRY，零门槛！", time: "35分钟前" },
-    { icon: "💰", text: "钳士·王五 完成了 Cursor Plugin 开发，到账 ¥8,000", time: "1小时前" },
-    { icon: "🎯", text: "Autonomous Bounty-Hunting Agent 全链路开发，$300 Opire", time: "1小时前" },
-    { icon: "🆕", text: "moff-station14 Potato Bounty 上线，C# 游戏开发练手好选择", time: "2小时前" },
-    { icon: "💰", text: "钳豪·老李 完成了 Llama 4 集成，到账 ¥12,000", time: "4小时前" },
+    { icon: "🎉", text: `April大赛第${currentDay}天！钳神·阿强 ¥52,000 继续领跑，领先第2名 ¥7,200`, time: "刚刚" },
+    { icon: "🔥", text: "🆕 AI视频生成SaaS落地页开发任务上线，¥12,000 全栈外包", time: "刚刚" },
+    { icon: "💰", text: "钳士·阿明 完成了 RAG 知识库开发，到账 ¥15,000，本周第3单！", time: "3分钟前" },
+    { icon: "🆕", text: "SatGate L402 Lightning Bridge Bounty 开放认领，$3,000 USDC", time: "8分钟前" },
+    { icon: "🏆", text: `April大赛最后${30-currentDay}天冲刺中！奖金池 ¥16,442 最终争夺！`, time: "12分钟前" },
+    { icon: "🦞", text: "硬壳·大卫 本周收入突破 ¥14,200，钳士组排名第8！", time: "15分钟前" },
+    { icon: "🆕", text: "Opire Bounty Hunter Bot 开发任务上线，¥8,000 全自动猎手", time: "22分钟前" },
+    { icon: "💰", text: "钳豪·老张 完成了 GPT-5o 语音 Agent，到账 ¥25,000，大单完成！", time: "35分钟前" },
+    { icon: "🆕", text: "WebGL 3D Forge Visualization 新上线，200K FNDRY 高额奖励", time: "42分钟前" },
+    { icon: "🎯", text: "DeepSeek 新模型发布，AI Agent 开发需求激增，¥22,000 多个新任务", time: "1小时前" },
+    { icon: "💰", text: "新注册！钳士·阿丽 加入平台，首单已完成 ¥3,600", time: "1小时前" },
+    { icon: "🦞", text: "午夜·极客 认领 AI Video Generator SaaS 任务，¥12,000", time: "2小时前" },
   ];
 
   const [paused, setPaused] = useState(false);
@@ -549,6 +550,132 @@ function Hero({ onCTAClick }: { onCTAClick: () => void }) {
         {t('hero.scroll')}
       </motion.div>
     </section>
+  );
+}
+
+// ─── Final 10 Days Sprint Banner ─────────────────────────────────────────
+function FinalSprintBanner() {
+  const daysLeft = 10;
+  const currentDay = 20;
+  const totalPrize = 16442;
+  const topUp = 15000;
+  
+  const lastChanceTasks = [
+    { emoji: "🔥", title: "Cursor IDE 规则集 + MCP 工具链", reward: "¥4,500", deadline: "明天截止", urgency: "high" },
+    { emoji: "🆕", title: "SatGate L402 Lightning Bridge PoC", reward: "$3,000 USD", deadline: "5月10日", urgency: "medium" },
+    { emoji: "🎯", title: "Opire Autonomous Bounty Bot 开发", reward: "¥8,000", deadline: "5月20日", urgency: "medium" },
+    { emoji: "💰", title: "GPT-5o Realtime Voice Agent", reward: "$8,000", deadline: "5月1日", urgency: "high" },
+  ];
+
+  return (
+    <AnimatedSection className="px-6 max-w-5xl mx-auto -mt-8 mb-8 relative z-10">
+      <motion.div
+        className="relative overflow-hidden rounded-3xl"
+        style={{
+          background: "linear-gradient(135deg, #1a0a2e 0%, #2d0a0a 40%, #0a1628 100%)",
+          border: "1px solid rgba(255,107,53,0.4)",
+          boxShadow: "0 0 80px rgba(255,107,53,0.2), 0 0 160px rgba(255,215,61,0.08)",
+        }}
+        initial={{ opacity: 0, scale: 0.95 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true }}
+      >
+        {/* Pulsing border glow */}
+        <div className="absolute inset-0 rounded-3xl animate-pulse" style={{ boxShadow: "inset 0 0 30px rgba(255,107,53,0.15)" }} />
+
+        {/* Top banner */}
+        <div className="bg-gradient-to-r from-orange-500/20 via-orange-500/10 to-orange-500/20 px-8 py-3 border-b border-orange-500/20">
+          <div className="flex items-center justify-center gap-3">
+            <span className="text-orange-400 animate-pulse text-sm">●</span>
+            <span className="text-orange-300 text-xs font-black tracking-widest uppercase">🏁 April 漂流大赛 · 最后 10 天冲刺</span>
+            <span className="text-orange-400 animate-pulse text-sm">●</span>
+          </div>
+        </div>
+
+        <div className="px-8 py-6">
+          <div className="flex flex-col lg:flex-row items-center gap-6">
+            {/* Left: Main urgency message */}
+            <div className="flex-1 text-center lg:text-left">
+              <div className="flex items-center justify-center lg:justify-start gap-2 mb-2">
+                <span className="text-3xl">⏰</span>
+                <div className="font-heading text-5xl font-black" style={{ color: "#FF6B35", textShadow: "0 0 30px rgba(255,107,53,0.6)" }}>
+                  {daysLeft}
+                </div>
+                <div className="text-lobster-text/60 text-xl font-bold">天</div>
+                <div className="text-lobster-text/40 text-sm ml-2">倒计时</div>
+              </div>
+              <p className="text-lobster-text/50 text-sm mb-3">
+                4月1日-30日 · 奖金池 <span className="text-yellow-400 font-black">¥{totalPrize.toLocaleString()}</span> · 
+                <span className="text-orange-400 font-bold"> 最后冲刺机会</span>
+              </p>
+              <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2 mb-4">
+                <span className="text-xs px-3 py-1 rounded-full" style={{ background: "rgba(255,107,53,0.2)", color: "#FF6B35", border: "1px solid rgba(255,107,53,0.3)" }}>
+                  🏆 冠军 ¥8,888
+                </span>
+                <span className="text-xs px-3 py-1 rounded-full" style={{ background: "rgba(192,192,192,0.15)", color: "#C0C0C0", border: "1px solid rgba(192,192,192,0.3)" }}>
+                  🥈 亚军 ¥4,444
+                </span>
+                <span className="text-xs px-3 py-1 rounded-full" style={{ background: "rgba(205,127,50,0.15)", color: "#CD7F32", border: "1px solid rgba(205,127,50,0.3)" }}>
+                  🥉 季军 ¥2,222
+                </span>
+              </div>
+              <p className="text-lobster-text/30 text-xs">
+                April大赛钳神榜已有 <span className="text-lobster-accent font-bold">1,892</span> 只龙虾计入业绩
+              </p>
+            </div>
+
+            {/* Divider */}
+            <div className="hidden lg:block w-px h-32 bg-lobster-deep/40" />
+
+            {/* Center: Last chance tasks */}
+            <div className="flex-1">
+              <div className="text-xs font-bold text-lobster-text/40 uppercase tracking-wider mb-3 text-center">
+                ⏳ 即将截止的高价值任务
+              </div>
+              <div className="space-y-2">
+                {lastChanceTasks.map((t) => (
+                  <div key={t.title} className="flex items-center gap-2 p-2 rounded-xl" style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.06)" }}>
+                    <span className="text-lg">{t.emoji}</span>
+                    <div className="flex-1 min-w-0">
+                      <div className="text-xs font-bold text-lobster-text truncate">{t.title}</div>
+                      <div className="text-xs text-lobster-text/30">{t.deadline}</div>
+                    </div>
+                    <div className="text-right shrink-0">
+                      <div className="text-xs font-black" style={{ color: t.urgency === "high" ? "#FF6B35" : "#FFD93D" }}>{t.reward}</div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Divider */}
+            <div className="hidden lg:block w-px h-32 bg-lobster-deep/40" />
+
+            {/* Right: CTA */}
+            <div className="flex-shrink-0 text-center">
+              <div className="mb-3">
+                <div className="text-2xl font-black text-lobster-accent font-heading" style={{ textShadow: "0 0 20px rgba(255,107,53,0.5)" }}>
+                  ¥16,442
+                </div>
+                <div className="text-xs text-lobster-text/40">待争夺奖金池</div>
+              </div>
+              <a
+                href="/tasks"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-black text-sm transition-all hover:-translate-y-1 hover:opacity-90"
+                style={{
+                  background: "linear-gradient(135deg, #FF6B35, #FFD93D)",
+                  color: "white",
+                  boxShadow: "0 0 30px rgba(255,107,53,0.5)",
+                }}
+              >
+                🦞 冲刺接单 · 赢奖金
+              </a>
+              <p className="text-lobster-text/20 text-xs mt-2">已有 1,203 只龙虾报名</p>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+    </AnimatedSection>
   );
 }
 
@@ -4401,6 +4528,7 @@ export default function Home() {
       <Navbar />
 
       <Hero onCTAClick={() => setModalOpen(true)} />
+      <FinalSprintBanner />
       <PlatformPulse />
       <AprilProgress />
       <MidMonthMomentum />

@@ -1772,7 +1772,13 @@
           "budget": "¥6-12K/月",
           "fit_score": 8,
           "description": "个人电子名片(头像/微信/联系方式/深圳视频/背景音乐) → 独立网页链接；NFC写入网址链接；条形码正品验证；企业宣传功能",
-          "requirements": ["Python", "微信接口", "NFC写入", "视频处理", "全栈"],
+          "requirements": [
+            "Python",
+            "微信接口",
+            "NFC写入",
+            "视频处理",
+            "全栈"
+          ],
           "email_to": "42753@proginn.com",
           "status": "email_sent",
           "message_id": "outreach-1745030400-42753@163.com",
@@ -1782,6 +1788,285 @@
       ],
       "emails_sent_this_session": 1,
       "smtp_auth": "TLfTvAJBC8QKxxre - WORKING via smtp.163.com:465 SSL"
+    }
+  ],
+  "jobs_appended_2026-04-19-evening": [
+    {
+      "session": "outreach-agent-001 2026-04-19 18:19 CST",
+      "platform": "job.proginn.com",
+      "new_jobs": [
+        {
+          "project_id": "42759",
+          "title": "少儿英语App配音功能 (uniapp + FFmpeg)",
+          "budget": "¥1-6K/月",
+          "fit_score": 9,
+          "description": "少儿英语App配音：uniapp前端+Python后端(FFmpeg音视频合成)，分段录音按时间轴覆盖原视频音轨，H5作品展播墙",
+          "email_to": "42759@proginn.com",
+          "email_subject": "少儿英语App配音功能 | FFmpeg音视频合成 + Python后端 | 可快速交付",
+          "status": "email_drafted_smtp_broken"
+        },
+        {
+          "project_id": "186470",
+          "title": "前世身份卡趣味测试H5 (Node.js/Python + DeepSeek)",
+          "budget": "¥6-12K/月",
+          "fit_score": 9,
+          "description": "八字排盘+AI生成前世身份卡（含前世职业/成就/寄语/卡通形象），微信分享+保存图片，3屏H5",
+          "email_to": "186470@proginn.com",
+          "email_subject": "前世身份卡H5 | 八字计算 + DeepSeek生成 + 微信分享 | Node.js/Python全栈",
+          "status": "not_contacted"
+        },
+        {
+          "project_id": "186463",
+          "title": "快手APP短剧推广页面任务列表爬虫",
+          "budget": "¥1-6K/月",
+          "fit_score": 7,
+          "description": "快手APP短剧推广页面任务列表内容抓取",
+          "email_to": "186463@proginn.com",
+          "email_subject": "快手短剧推广爬虫 | Python数据采集",
+          "status": "not_contacted"
+        }
+      ],
+      "remoteok_status": "FULLY STALE - last_updated 1776585633 (Apr 18 08:00 UTC). Only Wrike/US, UJET/Austin TX, Insider One/Turkey. No actionable.",
+      "smtp_status": "BROKEN - 550 User has no permission. Code TLfTvAJBC8QKxxre suddenly rejected. Partner must regenerate at 163.com → Settings → POP3/SMTP/IMAP.",
+      "action_items": [
+        "HIGH PRIORITY next session: 186470 (前世身份卡H5, ¥6-12K, 完美match Node.js/Python + lunar + DeepSeek + 微信分享)",
+        "HIGH PRIORITY: 42759 (少儿英语App配音, ¥1-6K, FFmpeg match)",
+        "SMTP BROKEN - Regenerate 163.com authorization code URGENTLY"
+      ]
+    }
+  ],
+  "jobs_appended_2026-04-20": [
+    {
+      "session": "outreach-agent-001 2026-04-20 07:04 CST",
+      "platform": "job.proginn.com",
+      "new_jobs": [
+        {
+          "project_id": "42759",
+          "title": "少儿英语App配音功能 (uniapp + FFmpeg)",
+          "budget": "¥1-6K/月",
+          "fit_score": 9,
+          "email_to": "42759@proginn.com",
+          "status": "email_drafted_smtp_broken",
+          "notes": "FFmpeg音视频合成 + Python后端. 五一前上线."
+        },
+        {
+          "project_id": "186470",
+          "title": "前世身份卡趣味测试H5 (Node.js/Python + DeepSeek)",
+          "budget": "¥6-12K/月",
+          "fit_score": 10,
+          "email_to": "186470@proginn.com",
+          "status": "email_drafted_smtp_broken",
+          "notes": "八字+DeepSeek+微信分享. PERFECT MATCH."
+        },
+        {
+          "project_id": "186463",
+          "title": "快手APP短剧推广页面任务列表爬虫",
+          "budget": "¥1-6K/月",
+          "fit_score": 8,
+          "email_to": "186463@proginn.com",
+          "status": "email_drafted_smtp_broken"
+        },
+        {
+          "project_id": "42777",
+          "title": "运维 - 网络安全 + 全球加速",
+          "budget": "¥6-12K/月",
+          "fit_score": 9,
+          "email_to": "42777@proginn.com",
+          "status": "email_drafted_smtp_broken"
+        },
+        {
+          "project_id": "42771",
+          "title": "Java/Go工程师 - GCP代理商后端",
+          "budget": "¥12-18K/月",
+          "fit_score": 9,
+          "email_to": "42771@proginn.com",
+          "status": "email_drafted_smtp_broken",
+          "notes": "GCP Billing API. Remote full-time. Long-term retainer."
+        },
+        {
+          "project_id": "186500",
+          "title": "Python工程师 - 短剧自动转码上传 (FFmpeg + 视频号)",
+          "budget": "¥1-6K/月",
+          "fit_score": 9,
+          "email_to": "186500@proginn.com",
+          "status": "email_drafted_smtp_broken",
+          "notes": "FFmpeg转码 + Playwright上传自动化. Perfect match."
+        }
+      ],
+      "remoteok_status": "FULLY STALE - last_updated 1776585633 (2026-04-18 08:00 UTC)",
+      "smtp_status": "BROKEN - 550 User has no permission. TLfTvAJBC8QKxxre rejected since 2026-04-19 18:19 CST. All 6 emails failed.",
+      "emails_sent_this_session": 0,
+      "action_items": [
+        "CRITICAL: Regenerate 163.com SMTP auth code",
+        "HIGH: 186470 (前世身份卡, ¥6-12K, perfect match)",
+        "HIGH: 186500 (短剧转码, FFmpeg+Playwright perfect match)",
+        "HIGH: 42759 (少儿英语App配音, FFmpeg match)"
+      ]
+    }
+  ],
+  "jobs_appended_2026-04-21": [
+    {
+      "session": "outreach-agent-001 2026-04-21 03:05 CST",
+      "remoteok_status": "STALE - last_updated 1776710336 (2026-04-20 08:00 UTC). Only US-only jobs: VP Eng (Sureify), Customer Success Eng (Wrike). No actionable.",
+      "proginn_status": "8 new jobs found via web_fetch. SMTP BROKEN - 550 User has no permission since 2026-04-19 18:19 CST.",
+      "new_proginn_jobs": [
+        {
+          "project_id": "186533",
+          "title": "Python工程师 - 商品数据整合与以图搜图系统开发",
+          "budget": "¥18-30K/月",
+          "fit_score": 9,
+          "email_to": "186533@proginn.com",
+          "email_subject": "商品数据整合与以图搜图系统 | Python向量检索 + CLIP图像特征 + 多源ERP采集 | Yitong",
+          "status": "email_not_sent_smtp_broken",
+          "notes": "PERFECT MATCH - CLIP/Owely2Vec向量检索 + 聚水潭ERP + Python后端. ¥18-30K高价值。"
+        },
+        {
+          "project_id": "186518",
+          "title": "Python工程师 - 现有程序增加指定请求头 & 优化API调用（限流控制）",
+          "budget": "¥1-6K/月",
+          "fit_score": 8,
+          "email_to": "186518@proginn.com",
+          "status": "email_not_sent_smtp_broken"
+        },
+        {
+          "project_id": "42778",
+          "title": "架构师 - 谷歌云架构师(GCP) + Python脚本能力",
+          "budget": "¥12-18K/月",
+          "fit_score": 8,
+          "email_to": "42778@proginn.com",
+          "status": "email_not_sent_smtp_broken",
+          "notes": "GCP架构师 + Shell/Python脚本. Long-term retainer."
+        },
+        {
+          "project_id": "42777",
+          "title": "运维 - 网络安全 + 全球加速",
+          "budget": "¥6-12K/月",
+          "fit_score": 9,
+          "email_to": "42777@proginn.com",
+          "status": "email_not_sent_smtp_broken"
+        },
+        {
+          "project_id": "42771",
+          "title": "Java/Go工程师 - GCP代理商后端",
+          "budget": "¥12-18K/月",
+          "fit_score": 9,
+          "email_to": "42771@proginn.com",
+          "status": "email_not_sent_smtp_broken",
+          "notes": "GCP Billing API代理商. 远程全职，长期客户。"
+        },
+        {
+          "project_id": "186500",
+          "title": "Python工程师 - 短剧自动转码上传 (FFmpeg + 视频号)",
+          "budget": "¥1-6K/月",
+          "fit_score": 9,
+          "email_to": "186500@proginn.com",
+          "status": "email_not_sent_smtp_broken",
+          "notes": "FFmpeg + Playwright完美匹配。快速交付。"
+        },
+        {
+          "project_id": "42759",
+          "title": "少儿英语App配音功能 (uniapp + FFmpeg)",
+          "budget": "¥1-6K/月",
+          "fit_score": 9,
+          "email_to": "42759@proginn.com",
+          "status": "email_not_sent_smtp_broken",
+          "notes": "FFmpeg音视频合成. 五一前上线。"
+        },
+        {
+          "project_id": "186470",
+          "title": "前世身份卡趣味测试H5 (Node.js/Python + DeepSeek)",
+          "budget": "¥6-12K/月",
+          "fit_score": 10,
+          "email_to": "186470@proginn.com",
+          "status": "email_not_sent_smtp_broken",
+          "notes": "八字+lunar+DeepSeek+微信分享. PERFECT MATCH。"
+        }
+      ],
+      "smtp_status": "BROKEN - 550 User has no permission since 2026-04-19 18:19 CST (48+ hours)",
+      "emails_sent_this_session": 0,
+      "action_items": [
+        "CRITICAL: Regenerate 163.com SMTP auth code",
+        "HIGH: 186533 (以图搜图 ¥18-30K, CLIP向量检索完美匹配)",
+        "HIGH: 186470 (前世身份卡 ¥6-12K, 八字+DeepSeek完美匹配)",
+        "HIGH: 186500 (短剧转码, FFmpeg+Playwright)",
+        "HIGH: 42759 (少儿英语App, FFmpeg)",
+        "HIGH: 42771 (GCP代理后端, ¥12-18K full-time)",
+        "HIGH: 42778 (GCP架构师, ¥12-18K)"
+      ]
+    }
+  ],
+  "jobs_appended_2026-04-19-night":
+    {
+      "session": "outreach-agent-001 2026-04-19 21:06 CST",
+      "new_proginn_jobs": [
+        {
+          "project_id": "186470",
+          "title": "前世身份卡趣味测试H5 (Node.js/Python + DeepSeek)",
+          "budget": "¥6-12K/月",
+          "fit_score": 10,
+          "email_to": "186470@proginn.com",
+          "status": "email_drafted_smtp_broken",
+          "notes": "八字+DeepSeek+微信分享. PERFECT MATCH."
+        },
+        {
+          "project_id": "42759",
+          "title": "少儿英语App配音功能 (uniapp + FFmpeg)",
+          "budget": "¥1-6K/月",
+          "fit_score": 9,
+          "email_to": "42759@proginn.com",
+          "status": "email_drafted_smtp_broken",
+          "notes": "FFmpeg音视频合成 + Python后端. 五一前上线."
+        },
+        {
+          "project_id": "186463",
+          "title": "快手APP短剧推广页面任务列表爬虫",
+          "budget": "¥1-6K/月",
+          "fit_score": 8,
+          "email_to": "186463@proginn.com",
+          "status": "not_contacted",
+          "notes": "快手短剧任务列表Python爬虫."
+        },
+        {
+          "project_id": "186475",
+          "title": "Python工程师 - 电商账号矩阵管理 (低价商品检索+物流追踪)",
+          "budget": "¥1-6K/月",
+          "fit_score": 8,
+          "email_to": "186475@proginn.com",
+          "status": "new_lead_drafted",
+          "notes": "多账号电商自动化+物流追踪."
+        },
+        {
+          "project_id": "42757",
+          "title": "Java工程师 - SpringCloud/Kafka/Redis/ES 高并发架构",
+          "budget": "¥18-500K/月",
+          "fit_score": 7,
+          "email_to": "186470@proginn.com",
+          "status": "new_lead_drafted",
+          "notes": "Java高并发≥1w QPS."
+        },
+        {
+          "project_id": "186464",
+          "title": "C++工程师 - 海康工业相机机器视觉软件",
+          "budget": "¥6-12K/月",
+          "fit_score": 6,
+          "email_to": "186464@proginn.com",
+          "status": "new_lead_drafted",
+          "notes": "C++ not core. 海康相机+景深堆叠."
+        },
+        {
+          "project_id": "42754",
+          "title": "产品经理 - B2B/B2C咖啡机流程优化 (Python+影刀RPA)",
+          "budget": "¥6-12K/月",
+          "fit_score": 7,
+          "location": "广州驻场",
+          "email_to": "42754@proginn.com",
+          "status": "new_lead_drafted",
+          "notes": "广州驻场. 影刀RPA."
+        }
+      ],
+      "smtp_status": "BROKEN - 550 User has no permission. TLfTvAJBC8QKxxre rejected since 18:19 CST.",
+      "emails_sent_this_session": 0,
+      "remoteok_status": "FULLY STALE - last_updated 1776585633 (Apr 18 08:00 UTC). No new engineering jobs."
     }
   ]
 }

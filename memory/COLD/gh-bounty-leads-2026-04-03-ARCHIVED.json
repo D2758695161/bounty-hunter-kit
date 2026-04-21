@@ -1,0 +1,241 @@
+[
+  {
+    "project": "claude-builders-bounty",
+    "url": "https://github.com/claude-builders-bounty/claude-builders-bounty",
+    "description": "A community bounty board for Claude Code builders — post tasks, claim rewards, build together. 303 open issues.",
+    "bounties": [
+      {
+        "title": "Bounty 3 — PreToolUse Hook ($50 bounty)",
+        "issue_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/381",
+        "pr_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/381",
+        "amount": "$50",
+        "what": "Claude Code PreToolUse hook blocking dangerous commands (rm -rf, DROP TABLE, git push --force, etc.) with JSON logging to ~/.claude/hooks/blocked.log",
+        "status": "OPEN — PR submitted",
+        "likelihood": "HIGH — active bounty, PR #381 open"
+      },
+      {
+        "title": "Bounty 5 — n8n Workflow ($50 bounty)",
+        "issue_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/383",
+        "pr_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/383",
+        "amount": "$50",
+        "what": "Importable n8n workflow (Friday 5pm cron) that fetches commits/issues/PRs via GitHub API and delivers Claude API narrative summary via Discord webhook",
+        "status": "OPEN — PR submitted",
+        "likelihood": "HIGH — active bounty, PR #383 open"
+      },
+      {
+        "title": "Bounty 4 — PR Review CLI ($150 bounty)",
+        "issue_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/382",
+        "pr_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/382",
+        "amount": "$150",
+        "what": "CLI tool + GitHub Action for automated PR review: summary, risks, suggestions, confidence score",
+        "status": "OPEN — PR submitted",
+        "likelihood": "HIGH — active bounty, PR #382 open"
+      },
+      {
+        "title": "Bounty 2 — CLAUDE.md for Next.js 15 ($50 bounty)",
+        "issue_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/380",
+        "pr_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/380",
+        "amount": "$50",
+        "what": "Opinionated CLAUDE.md for Next.js 15 + SQLite (better-sqlite3/Turso) with structure, naming, migrations, components, anti-patterns",
+        "status": "OPEN — PR submitted",
+        "likelihood": "HIGH — active bounty, PR #380 open"
+      },
+      {
+        "title": "[BOUNTY $50] Add CHANGELOG Generator",
+        "issue_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/414",
+        "pr_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/414",
+        "amount": "$50",
+        "what": "Bash script that auto-generates CHANGELOG.md from git history, categorizing commits as Added/Fixed/Changed/Removed since last tag",
+        "status": "OPEN — PR submitted",
+        "likelihood": "HIGH — active bounty, PR #414 open"
+      },
+      {
+        "title": "Bounty #4 — PR Review Agent ($150 via Opire)",
+        "issue_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/184",
+        "pr_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/184",
+        "amount": "$150 (via Opire)",
+        "what": "Claude Code PR Reviewer CLI — Node.js zero-dep CLI + GitHub Action, multi-provider (Anthropic/Groq/Gemini), tested on real PRs",
+        "status": "OPEN — PR submitted",
+        "likelihood": "MEDIUM — PR open but multiple PRs for same bounty #4"
+      },
+      {
+        "title": "Add PR Review Agent (Bounty #4) — $150",
+        "issue_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/347",
+        "pr_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/347",
+        "amount": "$150",
+        "what": "Python CLI tool + GitHub Actions workflow for automated PR review with security detection, Markdown output",
+        "status": "OPEN — PR submitted",
+        "likelihood": "MEDIUM — competing PRs for bounty #4"
+      },
+      {
+        "title": "[BOUNTY] Generate structured CHANGELOG skill",
+        "issue_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/28",
+        "pr_url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/28",
+        "amount": "Unspecified",
+        "what": "Bash script + structured README for CHANGELOG generation from git history",
+        "status": "OPEN — PR submitted",
+        "likelihood": "MEDIUM — PR submitted but amount not clear"
+      }
+    ]
+  },
+  {
+    "project": "daydreamsai/agent-bounties",
+    "url": "https://github.com/daydreamsai/agent-bounties",
+    "description": "AI agent bounty platform — deploy agents and earn rewards",
+    "bounties": [
+      {
+        "title": "Approval Risk Auditor — Bounty #5",
+        "issue_url": "https://github.com/daydreamsai/agent-bounties/issues/161",
+        "pr_url": "https://github.com/daydreamsai/agent-bounties/pull/161",
+        "amount": "Unspecified (on agent-bounties platform)",
+        "what": "AI agent that flags unlimited/stale ERC-20/NFT approvals and builds revoke calls. Scans top tokens (USDT, USDC, DAI, WETH, LINK, UNI, AAVE) across chains using Etherscan-compatible APIs.",
+        "status": "OPEN — PR submitted, not yet deployed on x402 domain",
+        "likelihood": "MEDIUM — PR open, deployment on x402 required for final payout"
+      }
+    ]
+  },
+  {
+    "project": "LatterFixx/latterfix",
+    "url": "https://github.com/LatterFixx/latterfix",
+    "description": "Unclear — explore bounties dashboard project",
+    "bounties": [
+      {
+        "title": "[UI/UX] Build the 'Explore Bounties' Dashboard",
+        "issue_url": "https://github.com/LatterFixx/latterfix/issues/3",
+        "amount": "Unspecified (on-chain rewards)",
+        "what": "Build app/bounties/page.tsx — grid/list of tasks fetched from a smart contract with Tailwind hover effects",
+        "status": "OPEN",
+        "likelihood": "MEDIUM — issue is open, on-chain bounty platform, reward details in smart contract"
+      }
+    ]
+  },
+  {
+    "project": "boundlessfi/bounties",
+    "url": "https://github.com/boundlessfi/bounties",
+    "description": "On-chain bounty platform on Stellar/Soroban with Lightning Rounds feature",
+    "bounties": [
+      {
+        "title": "lightning-bounties — Lightning Rounds feature",
+        "pr_url": "https://github.com/boundlessfi/bounties/pull/163",
+        "amount": "Unspecified (Lightning Round bounties)",
+        "what": "Added Lightning Rounds — dedicated round pages with live countdowns, status badges, stats, progress bars, Lightning badge on bounty cards",
+        "status": "OPEN — 3 comments",
+        "likelihood": "MEDIUM — PR open, Lightning Rounds feature in progress"
+      },
+      {
+        "title": "feat: implement on-chain bounty status sync",
+        "pr_url": "https://github.com/boundlessfi/bounties/pull/167",
+        "amount": "Unspecified",
+        "what": "Real-time on-chain bounty state syncing via Stellar RPC/Soroban contract events, transaction confirmation tracking",
+        "status": "OPEN — 7 comments",
+        "likelihood": "MEDIUM — active PR with good dev engagement"
+      }
+    ]
+  },
+  {
+    "project": "ANAVHEOBA/PrivacyLayer",
+    "url": "https://github.com/ANAVHEOBA/PrivacyLayer",
+    "description": "PrivacyLayer — Soroban-based privacy pool project with active bounty program",
+    "bounties": [
+      {
+        "title": "[BOUNTY] Implement Freighter Wallet Integration",
+        "pr_url": "https://github.com/ANAVHEOBA/PrivacyLayer/pull/193",
+        "amount": "Unspecified (bounty platform)",
+        "what": "Complete Freighter wallet integration — connect/disconnect, sign transactions, network switching, Zustand state management",
+        "status": "OPEN",
+        "likelihood": "MEDIUM — PR open with full implementation"
+      },
+      {
+        "title": "[BOUNTY] Create Batch Deposit Interface",
+        "pr_url": "https://github.com/ANAVHEOBA/PrivacyLayer/pull/184",
+        "amount": "Unspecified (bounty platform)",
+        "what": "Gas-efficient batch deposit interface — single auth for batch deposits, batch transfer, performance optimizations",
+        "status": "OPEN — 1 comment",
+        "likelihood": "MEDIUM"
+      },
+      {
+        "title": "[BOUNTY] Performance Optimization & Admin Operations",
+        "pr_url": "https://github.com/ANAVHEOBA/PrivacyLayer/pull/182",
+        "amount": "Unspecified (bounty platform)",
+        "what": "Merkle zero-value pre-computation optimization + admin pause/set_verifying_key interfaces",
+        "status": "OPEN — 1 comment",
+        "likelihood": "MEDIUM"
+      }
+    ]
+  },
+  {
+    "project": "SPLURT-Station/S.P.L.U.R.T-tg",
+    "url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg",
+    "description": "Space Station 14 fork — adult-oriented SS14 server",
+    "bounties": [
+      {
+        "title": "[BOUNTY] Suggestion #622 — Breeding mounts feature",
+        "issue_url": "https://github.com/SPLURT-Station/S.P.L.U.R.T-tg/issues/923",
+        "amount": "Unspecified (PayPal or Crypto)",
+        "what": "In-game breeding mounts feature for a Space Station 14 fork — sex objects for humping with arbitrary statistics tracking",
+        "status": "OPEN — 0 comments, created Apr 2",
+        "likelihood": "LOW-MEDIUM — oddball game bounty, payment via Discord contact only"
+      }
+    ]
+  },
+  {
+    "project": "Bubberstation/Bubberstation",
+    "url": "https://github.com/Bubberstation/Bubberstation",
+    "description": "Space Station 14 fork",
+    "bounties": [
+      {
+        "title": "[BOUNTY] Character Preferences Reorganization",
+        "pr_url": "https://github.com/Bubberstation/Bubberstation/pull/5389",
+        "amount": "Unspecified (Bounty label: 'I want money')",
+        "what": "Reorganizes character customization into three tabs: Character Basics, OOC Preferences, Silicon Preferences",
+        "status": "OPEN — 2 comments, updated Apr 2",
+        "likelihood": "MEDIUM — PR active, bounty label confirmed"
+      }
+    ]
+  },
+  {
+    "project": "ProjectOmu/OmuStation",
+    "url": "https://github.com/ProjectOmu/OmuStation",
+    "description": "Space Station 14 fork — OmuStation server",
+    "bounties": [
+      {
+        "title": "[BOUNTY] port redshirt trait",
+        "pr_url": "https://github.com/ProjectOmu/OmuStation/pull/775",
+        "amount": "Unspecified (Note: Bounty label)",
+        "what": "Port the Redshirt trait from other SS14 servers — removes player's ability to go into critical health state",
+        "status": "OPEN — 2 comments, updated Apr 2",
+        "likelihood": "MEDIUM — PR active, Note: Bounty label"
+      }
+    ]
+  },
+  {
+    "project": "Open-Source-Bazaar/Open-Source-Bazaar.github.io",
+    "url": "https://github.com/Open-Source-Bazaar/Open-Source-Bazaar.github.io",
+    "description": "Open Source Bazaar — developer community hub",
+    "bounties": [
+      {
+        "title": "【开源黑客松】飞书版主页重新设计",
+        "issue_url": "https://github.com/Open-Source-Bazaar/Open-Source-Bazaar.github.io/issues/60",
+        "amount": "100 TQT",
+        "what": "Redesign the Feishu (Lark) version of the Open Source Hackathon homepage to make it more visually appealing",
+        "status": "CLOSED (state: completed, closed Mar 30)",
+        "likelihood": "LOW — bounty is closed/completed"
+      }
+    ]
+  },
+  {
+    "project": "algora-io/algora",
+    "url": "https://github.com/algora-io/algora",
+    "description": "Developer bounty platform — oss-bounty with bounty claims and payouts",
+    "bounties": [
+      {
+        "title": "fix(bounties): resync stale org bounty state from GitHub",
+        "pr_url": "https://github.com/algora-io/algora/pull/228",
+        "amount": "EVM + SOL payouts listed in PR body",
+        "what": "Org-level sync job that refreshes open bounty tickets from GitHub webhooks, backfills /attempt comments and recovers open /claim PRs",
+        "status": "OPEN — 1 comment",
+        "likelihood": "MEDIUM — active PR on the bounty platform itself"
+      }
+    ]
+  }
+]

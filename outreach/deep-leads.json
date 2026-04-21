@@ -1,380 +1,350 @@
 {
-  "generated": "2026-04-19T09:25:00+08:00",
-  "research_window": "2026-04-12 to 2026-04-19",
-  "sources": [
-    "Product Hunt Feed (13 dev/AI products)",
-    "GitHub API / Topics (10+ sponsor-accepting projects)",
-    "RapidAPI Hub + no-code platform gaps (10 API leads)",
-    "Freelance platform registration status (8 platforms checked)"
-  ],
-  "gh_bounty_note": "Found 3 active bounty programs this week via GitHub issues search. Opire.io (USD), SolFoundry (FNDRY tokens), RustChain (RTC tokens). No LayerBank or traditional IssueHunt activity this week.",
+  "researchDate": "2026-04-21T02:30:00Z",
+  "researchPeriod": "last 7 days (Apr 14-21, 2026)",
   "leads": [
-
     {
-      "category": "product_launch_outreach",
-      "priority": "tier1_high_budget",
-      "leads": [
-        {
-          "name": "Claude Design",
-          "company": "Anthropic Labs",
-          "what_they_need": "Content creators, YouTubers, tutorial makers, integration partners",
-          "how_to_reach": "@AnthropicAI on Twitter, claude.ai/design website",
-          "expected_budget": "very_high (enterprise deals)",
-          "notes": "Major Anthropic launch 2026-04-17. Very selective — go through official devrel channels, not cold Twitter DMs."
-        },
-        {
-          "name": "Grok Voice API",
-          "company": "xAI",
-          "what_they_need": "Integration partners, developers to build on API, voice-enabled app builders",
-          "how_to_reach": "Twitter @xaboratory, x.ai/api, GitHub xAI org",
-          "expected_budget": "medium-high",
-          "notes": "Fresh xAI launch 2026-04-17. High brand energy, likely seeking integration partners actively. Good candidate for API partnership deals."
-        },
-        {
-          "name": "React Email 6.0",
-          "company": "Resend",
-          "what_they_need": "Developer advocacy, template pack creators, plugin integrations, marketing",
-          "how_to_reach": "@resend on Twitter/X, GitHub resend/react-email",
-          "expected_budget": "medium",
-          "notes": "Resend is very community-oriented. Very responsive on Twitter. Template packs, starter kits, and email integration docs are welcome contributions."
-        },
-        {
-          "name": "Vercel Flags",
-          "company": "Vercel",
-          "what_they_need": "Case studies, content marketing, integration docs for non-Vercel platforms",
-          "how_to_reach": "@vercel on Twitter, Vercel Discord, GitHub vercel/vercel",
-          "expected_budget": "high (enterprise)",
-          "notes": "Enterprise-grade product. May need third-party consultants to build integration content. Good for devrel/content agency relationships."
-        },
-        {
-          "name": "Notebooks in Gemini",
-          "company": "Google",
-          "what_they_need": "Integration partners for Gemini workspace plugins",
-          "how_to_reach": "ai.google.dev, @GoogleAI",
-          "expected_budget": "very_high",
-          "notes": "Hard to partner directly. Focus on building tools that complement or integrate with Gemini rather than direct partnership."
-        }
-      ]
+      "id": "dev-challenge-openclaw-001",
+      "source": "DEV Community",
+      "company": "DEV.to / OpenClaw",
+      "opportunityType": "Writing/Build Challenge",
+      "title": "OpenClaw Challenge: $1,200 Prize Pool",
+      "description": "DEV Community challenge to share your OpenClaw experience. Two prompts: 'OpenClaw in Action' (build something) and 'Wealth of Knowledge' (write tutorial/guide). 6 winners selected.",
+      "whatTheyNeed": "Blog posts about OpenClaw usage, tutorials, builds, or essays about personal AI. Deadline: April 26, 2026.",
+      "howToReach": "Publish on dev.to using submission templates at https://dev.to/challenges/openclaw-2026-04-16",
+      "expectedBudget": "$200 USD per winner × 6 winners + DEV++ membership + exclusive badge",
+      "actionItems": ["Write OpenClaw skill tutorial or getting started guide", "Build a skill and document it", "Submit via dev.to challenge template"],
+      "urgency": "HIGH - Deadline April 26, 2026",
+      "url": "https://dev.to/devteam/join-the-openclaw-challenge-1200-prize-pool-5682"
     },
-
     {
-      "category": "rapidapi_nocode_integration",
-      "priority": "tier1_high_revenue",
-      "leads": [
-        {
-          "name": "Tavily AI Search",
-          "api_type": "AI-powered web search for RAG",
-          "what_they_need": "Zapier/Make/n8n connector — they have freemium users but no no-code integration",
-          "how_to_reach": "RapidAPI dashboard DM, Twitter @tavily_ai, GitHub tavily-ai/tavily-python",
-          "expected_budget": "revenue_share (20-30% of RapidAPI calls via your integration)",
-          "revenue_model": "Build once, earn ongoing usage revenue share. Freemium base = large potential upgrade funnel."
-        },
-        {
-          "name": "Jina AI Reader API",
-          "api_type": "URL to markdown conversion",
-          "what_they_need": "Zapier/Make/n8n connector for non-technical users",
-          "how_to_reach": "GitHub jinaai/jina, Twitter @jinaai, RapidAPI direct message",
-          "expected_budget": "revenue_share + affiliate",
-          "revenue_model": "API call pass-through markup. Massive developer base = high upgrade potential."
-        },
-        {
-          "name": "Abstract APIs (Email/Phone/VAT Validation)",
-          "api_type": "Business data validation suite",
-          "what_they_need": "CRM and sales automation integrations for Zapier/Make",
-          "how_to_reach": "abstractapi.com/api, RapidAPI listing",
-          "expected_budget": "revenue_share",
-          "revenue_model": "Lead enrichment + data cleaning pipelines. High demand from CRM automation users."
-        },
-        {
-          "name": "Firecrawl / ScrapeNinja",
-          "api_type": "Web scraping with anti-bot bypass",
-          "what_they_need": "No-code platform integrations (Zapier/Make/n8n)",
-          "how_to_reach": "RapidAPI provider dashboard, GitHub",
-          "expected_budget": "usage-based revenue share",
-          "revenue_model": "AI data pipeline boom = massive demand. Structure as bundled data packages."
-        },
-        {
-          "name": "IPQualityScore",
-          "api_type": "Fraud detection API",
-          "what_they_need": "E-commerce fraud automation for Shopify/WooCommerce Zapier pipelines",
-          "how_to_reach": "ipqualityscore.com/contact, RapidAPI",
-          "expected_budget": "volume-based revenue share",
-          "revenue_model": "Rising e-commerce fraud awareness = growing market. White-label plugin licensing."
-        }
-      ],
-      "outreach_template": "Your API has [X] monthly searches on RapidAPI but zero Zapier integrations — we can change that. Offer: build the Zapier/Make integration in exchange for revenue share (20-30%) on calls generated through the integration + featured placement in your docs."
+      "id": "github-rustchain-bounty-2273",
+      "source": "GitHub (label:bounty, last 7 days)",
+      "company": "Scottcjn/Rustchain",
+      "opportunityType": "Bounty (Crypto Token)",
+      "title": "[BOUNTY: up to 70 RTC] Phase F follow-ups: key rotation + registry expiry + non-root key path",
+      "description": "Rust blockchain project. Follow-up hardening items: key rotation + registry expiry + non-root key path. Phase F Ed25519 follow-up work.",
+      "whatTheyNeed": "Rust development - security hardening, key rotation implementation, registry expiry logic, non-root key path handling.",
+      "howToReach": "https://github.com/Scottcjn/Rustchain/issues/2273 - claim by commenting, submit PR",
+      "expectedBudget": "Up to 70 RTC tokens (cryptocurrency - value varies, ~$70-700+ depending on token price)",
+      "actionItems": ["Review issue details", "Implement key rotation + registry expiry", "Submit PR with fix"],
+      "urgency": "MEDIUM - Open 4 days, active development",
+      "url": "https://github.com/Scottcjn/Rustchain/issues/2273",
+      "techStack": ["Rust", "Blockchain", "Cryptography"]
     },
-
     {
-      "category": "github_sponsors_contributor",
-      "priority": "tier2_portfolio_building",
-      "leads": [
-        {
-          "name": "open-webui",
-          "url": "https://github.com/open-webui/open-webui",
-          "stars": 132565,
-          "language": "Python",
-          "what_they_need": "Frontend React/TypeScript, RAG improvements, MCP integrations, Docker optimizations, documentation translations",
-          "how_to_reach": "GitHub issues, Discord community, @openwebui on Twitter",
-          "expected_budget": "GitHub Sponsors recognition + potential sponsor tier for sustained contributors",
-          "notes": "High-growth AI UI project. Active GitHub Sponsors org. Great for AI/LLM portfolio work."
-        },
-        {
-          "name": "openclaw",
-          "url": "https://github.com/openclaw/openclaw",
-          "stars": 360076,
-          "language": "TypeScript",
-          "what_they_need": "Skills framework development, browser automation, gateway improvements, MCP server integrations",
-          "how_to_reach": "GitHub issues, @openclaw on Twitter",
-          "expected_budget": "GitHub Sponsors org + potential contributor sponsorship tiers",
-          "notes": "360k stars, 73k forks. Massive AI assistant framework. Great for TypeScript/Node.js AI agent portfolio."
-        },
-        {
-          "name": "yt-dlp",
-          "url": "https://github.com/yt-dlp/yt-dlp",
-          "stars": 157545,
-          "language": "Python",
-          "what_they_need": "New video site extractors, bug fixes (2,476 open issues), platform testing",
-          "how_to_reach": "GitHub issues, Discord community",
-          "expected_budget": "Recognition + potential GitHub Sponsors if sustained contributions",
-          "notes": "High-volume bug queue. Great for Python contributors wanting scraping/extraction experience."
-        },
-        {
-          "name": "excalidraw",
-          "url": "https://github.com/excalidraw/excalidraw",
-          "stars": 121361,
-          "language": "TypeScript",
-          "what_they_need": "React/TypeScript frontend, real-time collaboration, mobile app, performance optimization, a11y",
-          "how_to_reach": "GitHub issues, @excalidraw on Twitter",
-          "expected_budget": "GitHub Sponsors + potential future employment/contracting with excalidraw.com",
-          "notes": "121k stars. Massive community. Excellent TypeScript/React portfolio builder."
-        },
-        {
-          "name": "frp (fast reverse proxy)",
-          "url": "https://github.com/fatedier/frp",
-          "stars": 106007,
-          "language": "Go",
-          "what_they_need": "Go backend programming, new proxy protocol support, TLS hardening, documentation",
-          "how_to_reach": "GitHub issues, fatedier on GitHub",
-          "expected_budget": "Maintainer GitHub Sponsors — clean Go project, great for production portfolio",
-          "notes": "106k stars, 41 open issues = very manageable. Good for Go developers wanting production networking experience."
-        },
-        {
-          "name": "uptime-kuma",
-          "url": "https://github.com/louislam/uptime-kuma",
-          "stars": 65000,
-          "language": "Node.js",
-          "what_they_need": "Bug fixes (DB pooling), new monitor types, notification integrations, Docker improvements",
-          "how_to_reach": "GitHub issues, @louislam on Twitter, Discord",
-          "expected_budget": "Louis Lam has active GitHub Sponsors — recognized contributors can earn sponsor tier",
-          "notes": "Well-known self-hosted tool. Maintainer is responsive and has working sponsorship."
-        },
-        {
-          "name": "tech-interview-handbook",
-          "url": "https://github.com/yangshun/tech-interview-handbook",
-          "stars": 138860,
-          "language": "TypeScript",
-          "what_they_need": "Algorithm solutions, behavioral content, system design, translations — non-code contributions welcome",
-          "how_to_reach": "GitHub issues, @yangshun on Twitter",
-          "expected_budget": "GitHub Sponsors recognition + community visibility",
-          "notes": "138k stars, only 44 open issues. Great for non-coding contributions: writing, translating."
-        }
-      ]
+      "id": "github-rustchain-bounty-2288",
+      "source": "GitHub (label:bounty, last 7 days)",
+      "company": "Scottcjn/Rustchain",
+      "opportunityType": "Bounty (Crypto Token)",
+      "title": "[BOUNTY: 25 RTC] _handle_get_state calls _signed_content with wrong arity (TypeError)",
+      "description": "Pre-existing latent bug: node/rustchain_p2p_gossip.py::_handle_get_state calls self._signed_content() with 3 positional arguments instead of correct count. TypeError when STATE requested.",
+      "whatTheyNeed": "Python/Rust bug fix - correct _signed_content() arity call. Quick fix for someone familiar with the codebase.",
+      "howToReach": "https://github.com/Scottcjn/Rustchain/issues/2288 - claim by commenting, submit PR",
+      "expectedBudget": "25 RTC tokens (~25-250+ USD depending on token price)",
+      "actionItems": ["Review the bug in rustchain_p2p_gossip.py", "Fix the _signed_content() arity", "Submit PR"],
+      "urgency": "HIGH - Open 2 days, straightforward bug fix",
+      "url": "https://github.com/Scottcjn/Rustchain/issues/2288",
+      "techStack": ["Rust", "Python", "P2P Networking"]
     },
-
     {
-      "category": "freelance_platforms_open_registration",
-      "priority": "tier1_immediate_action",
-      "leads": [
-        {
-          "name": "Arc.dev",
-          "url": "https://arc.dev",
-          "registration": "OPEN (apply anytime)",
-          "types_of_work": "Freelance and full-time remote for devs, designers, PMs, marketers. 60+ specialties.",
-          "typical_rates": "Above-market — determined by profile and negotiation",
-          "how_to_join": "Create profile at arc.dev/talent → complete vetting tests → receive interview invites",
-          "highlights": "4.2K+ matches, $45M+ earned by freelancers, no upfront cost",
-          "notes": "Best actionable option right now. Apply immediately if you have 5+ years experience and good English."
-        },
-        {
-          "name": "Gun.io",
-          "url": "https://gun.io",
-          "registration": "OPEN (apply anytime)",
-          "types_of_work": "Vetted Java, Python, JS, full-stack engineers for enterprise clients",
-          "typical_rates": "Premium/above-market — positions as high-stakes engineering talent",
-          "how_to_join": "app.gun.io/sign-up — platform handles vetting, contracts, global payroll",
-          "highlights": "~4K JS devs, ~2.8K Python devs on platform, multi-currency payroll, compliance included",
-          "notes": "Good for enterprise-focused developers. Platform takes care of contracts and tax compliance globally."
-        },
-        {
-          "name": "Upwork",
-          "url": "https://upwork.com",
-          "registration": "OPEN (free account, identity verified)",
-          "types_of_work": "Broad marketplace: software, mobile, AI/ML, design, marketing, writing",
-          "typical_rates": "$5-200+/hr — competitive, especially for new freelancers",
-          "how_to_join": "upwork.com → free account → complete profile → bid on jobs. Connects to enterprise clients.",
-          "highlights": "World's largest freelance marketplace. Connects directly to enterprise clients.",
-          "notes": "Easiest open door but very competitive. Build portfolio fast and target specialized niches to stand out."
-        }
-      ],
-      "do_not_waste_time_on": [
-        {"name": "Toptal", "why": "Invite-only, 5% acceptance rate, still worth applying if you have elite credentials"},
-        {"name": "Turing", "why": "Application-only, vet-heavy, but highest-paying if you pass"},
-        {"name": "Lotus.to", "why": "Site unreachable / inactive"},
-        {"name": "Devn.io", "why": "Site appears inactive"}
-      ]
+      "id": "github-dasharo-bounty-banana-bread",
+      "source": "GitHub (label:bounty, last 7 days)",
+      "company": "Dasharo/dasharo-issues",
+      "opportunityType": "Bounty (Documentation)",
+      "title": "Provide a banana bread recipe [bounty-warmup]",
+      "description": "Open source firmware project (Dasharo). Documentation task - provide a banana bread recipe. Marked as bounty-warmup (entry-level bounty).",
+      "whatTheyNeed": "Documentation - just need to provide a banana bread recipe. Warmup task to get started with Dasharo bounties.",
+      "howToReach": "https://github.com/Dasharo/dasharo-issues/issues/1824 - comment with recipe, get bounty-warmup label credited",
+      "expectedBudget": "Small bounty token reward + introduction to Dasharo ecosystem for future larger bounties",
+      "actionItems": ["Provide banana bread recipe in issue comment", "Get bounty-warmup credit", "Build relationship for larger Dasharo bounties"],
+      "urgency": "LOW - Easy warmup task, 4 days old",
+      "url": "https://github.com/Dasharo/dasharo-issues/issues/1824",
+      "techStack": ["Documentation", "Open Source Firmware"]
     },
-
     {
-      "category": "indie_tools_product_hunt",
-      "priority": "tier3_partnerships",
-      "leads": [
-        {
-          "name": "Hacktron",
-          "company": "Zayne Zhang (indie)",
-          "what_they_need": "Security community outreach, blog posts, YouTube tutorials, GitHub Actions/GitLab CI integration",
-          "how_to_reach": "Twitter @ZayneZhang, GitHub search hacktron",
-          "expected_budget": "low-medium — equity or early access deal possible",
-          "notes": "AI security tool for CI/CD pipelines. Security communities on Twitter/Reddit/Discord are good outreach channels."
-        },
-        {
-          "name": "Hipocampus",
-          "company": "Noureddin Bakir (indie)",
-          "what_they_need": "Productivity YouTubers, Twitter tech influencers, productivity community outreach",
-          "how_to_reach": "Twitter @nbakir, GitHub search hippocampus-ai",
-          "expected_budget": "low — early stage, co-marketing deal likely",
-          "notes": "AI agents for team workflows. Good for productivity/remote work YouTubers and newsletters."
-        },
-        {
-          "name": "Sharpsana",
-          "company": "Assylkhan Sarsenbayev (indie)",
-          "what_they_need": "Startup community outreach, SaaS integration (Slack, Notion, Linear), Product Hunt visibility",
-          "how_to_reach": "Twitter search Sharpsana AI, GitHub search sharpsana",
-          "expected_budget": "low — ambitious indie AI agent, good for partnership if you share audience",
-          "notes": "Full-stack startup AI agent. Could benefit from startup ecosystem communities like Product Hunt, Hacker News, indie hacker Slack."
-        },
-        {
-          "name": "Android CLI",
-          "company": "Rohan Chaubey (indie)",
-          "what_they_need": "Documentation help, mobile dev community outreach, iOS expansion partnership",
-          "how_to_reach": "Twitter @RohanChaubey3, GitHub search android-cli",
-          "expected_budget": "low — solo indie dev",
-          "notes": "AI-powered Android app builder. Could expand to iOS — partnership opportunity for mobile devs."
-        },
-        {
-          "name": "Cerberus",
-          "company": "Aziz Akhmedkhodjaev (indie)",
-          "what_they_need": "Cursor community YouTubers, AI coding agent Reddit/Discord communities",
-          "how_to_reach": "Twitter @AzizAkhmedkh1, GitHub search cerberus cursor",
-          "expected_budget": "low — niche dev tool for Cursor power users",
-          "notes": "Cursor plugin to prevent AI going out of scope. Very specific niche — Cursor community on Reddit/Discord is best channel."
-        },
-        {
-          "name": ".MD This Page",
-          "company": "Adem Kouki (indie)",
-          "what_they_need": "Tech Twitter sharing, browser extension store reviews, Product Hunt launch boost",
-          "how_to_reach": "Twitter @AdemKouki, GitHub search md-this-page",
-          "expected_budget": "low — simple utility tool, freemium browser extension model",
-          "notes": "Page-to-Markdown converter. Good for tech Twitter threads and browser extension marketplace distribution."
-        }
-      ]
+      "id": "github-dasharo-multiple-bounties",
+      "source": "GitHub (Dasharo bounty labels)",
+      "company": "Dasharo/dasharo-issues",
+      "opportunityType": "Multiple Bounties",
+      "title": "Dasharo Open Firmware - Multiple Active Bounty Issues",
+      "description": "Dasharo open source firmware has multiple bounty-labeled issues for documentation, testing, and development. Check full issue list for active bounties.",
+      "whatTheyNeed": "Documentation, testing, bug fixes for open source firmware (Protectli V1000 devices). Various skill levels.",
+      "howToReach": "https://github.com/Dasharo/dasharo-issues/issues?q=label%3Abounty",
+      "expectedBudget": "Variable bounty tokens per issue, bounty-warmup to bounty-tier levels",
+      "actionItems": ["Browse all bounty-labeled Dasharo issues", "Filter by skill level", "Start with warmup tasks"],
+      "urgency": "MEDIUM",
+      "url": "https://github.com/Dasharo/dasharo-issues/issues?q=label%3Abounty",
+      "techStack": ["Documentation", "Firmware", "Testing"]
     },
-
     {
-      "category": "bounty_platforms",
-      "priority": "tier1_cash_now",
-      "leads": [
-        {
-          "name": "Opire.io",
-          "url": "https://opire.io",
-          "type": "GitHub-native bounty platform (USD rewards)",
-          "status": "Active — 5 bounties found this week",
-          "what_they_need": "Devs, builders, automation engineers",
-          "active_bounties_usd": [
-            {"amount": 50, "title": "Claude Code skill for CHANGELOG.md generation", "labels": ["bounty", "good first issue", "skill"]},
-            {"amount": 75, "title": "CLAUDE.md template for Next.js 15 + SQLite SaaS", "labels": ["bounty", "template"]},
-            {"amount": 100, "title": "Claude Code pre-tool-use hook for dangerous commands", "labels": ["bounty", "hook", "security"]},
-            {"amount": 150, "title": "Claude Code PR review agent", "labels": ["bounty", "agent"]},
-            {"amount": 200, "title": "n8n workflow for weekly GitHub repo narrative summary", "labels": ["bounty", "workflow"]}
-          ],
-          "how_to_find": "Search 'powered by Opire' on GitHub issues, or visit opire.io",
-          "payout": "USD, direct to contributor on acceptance"
-        },
-        {
-          "name": "SolFoundry (FNDRY Token)",
-          "type": "Solana-based bounty platform (FNDRY tokens)",
-          "status": "Active — 12+ bounties, T1/T2/T3 tiers",
-          "what_they_need": "Frontend, Backend, Agent, Creative, Integration devs",
-          "top_bounties_fnrdy": [
-            {"reward": "100K FNDRY", "tier": "T1", "title": "Design SolFoundry Sticker Pack (Creative)"},
-            {"reward": "400K FNDRY", "tier": "T2", "title": "Email Notification System for Bounty Updates"},
-            {"reward": "500K FNDRY", "tier": "T2", "title": "Telegram Bot for New Bounty Notifications"},
-            {"reward": "600K FNDRY", "tier": "T2", "title": "GitHub Issue Scraper for Foundry Bounties"},
-            {"reward": "600K FNDRY", "tier": "T2", "title": "VS Code Extension for Browsing Bounties"},
-            {"reward": "800K FNDRY", "tier": "T3", "title": "Bounty Analytics Dashboard"},
-            {"reward": "1M FNDRY", "tier": "T3", "title": "Full Autonomous Bounty-Hunting Agent"},
-            {"reward": "1M FNDRY", "tier": "T3", "title": "3-Minute Animated Explainer Video with Voiceover"}
-          ],
-          "how_to_find": "Search '$FNDRY' on GitHub issues, labels: bounty, tier-1, tier-2, tier-3",
-          "payout": "FNDRY tokens (value unknown until listing)"
-        },
-        {
-          "name": "RustChain (RTC Token)",
-          "type": "Rust blockchain bug/code bounty",
-          "status": "Active pools: 950+ RTC",
-          "what_they_need": "Rust devs, security researchers",
-          "pools": [
-            {"pool": "200 RTC", "type": "Code Review Bounty", "per_pr": "10-15 RTC for thorough review"},
-            {"pool": "750 RTC", "type": "Bug Bounty (ongoing, replenished)", "severity": "Critical/High/Medium/Low tiers"},
-            {"pool": "Good First Issues", "type": "Starter tasks", "reward": "5-10 RTC"}
-          ],
-          "how_to_find": "Search 'Code Review Bounty RustChain' or 'Ongoing Bug Bounty RustChain' on GitHub",
-          "payout": "RTC tokens, payout within 24h of merge/acceptance"
-        },
-        {
-          "name": "Zama Bounty Program",
-          "url": "https://github.com/search?q=Zama+bounty",
-          "type": "FHE (Fully Homomorphic Encryption) OSS bug bounties",
-          "status": "Active on github.com/topics/bounty",
-          "what_they_need": "Cryptography researchers, Rust/Go security devs",
-          "how_to_find": "Search 'Zama bounty' on GitHub",
-          "payout": "USD (severity-based)"
-        },
-        {
-          "name": "arkadiyt/bounty-targets-data",
-          "url": "https://github.com/arkadiyt/bounty-targets-data",
-          "type": "Bug bounty scope data aggregator",
-          "status": "Updated hourly — Apr 18 2026",
-          "what_they_need": "Bug bounty hunters wanting to find in-scope targets on HackerOne/Bugcrowd/Intigriti",
-          "how_to_find": "github.com/arkadiyt/bounty-targets-data",
-          "payout": "Not a bounty program itself — tooling for bounty hunters"
-        }
-      ]
+      "id": "github-sovereign-genesis-logging",
+      "source": "GitHub (label:Bounty, last 7 days)",
+      "company": "Jennycruzy/sovereign-genesis",
+      "opportunityType": "Bounty",
+      "title": "Enhance Logging for AI Judge Module",
+      "description": "Improve logging mechanism in judge.js module for AI PR review. Include timestamps, error details, and review metrics for debugging and performance monitoring.",
+      "whatTheyNeed": "JavaScript/TypeScript - enhance logging in judge.js module, add timestamps, error details, review metrics.",
+      "howToReach": "https://github.com/Jennycruzy/sovereign-genesis/issues/61 - claim and submit PR",
+      "expectedBudget": "Bounty reward (amount not specified, check issue)",
+      "actionItems": ["Review judge.js module", "Implement enhanced logging with timestamps and error details", "Submit PR"],
+      "urgency": "MEDIUM - Open 5 days",
+      "url": "https://Jennycruzy/sovereign-genesis/issues/61",
+      "techStack": ["JavaScript", "Node.js", "AI"]
+    },
+    {
+      "id": "github-sovereign-genesis-polling",
+      "source": "GitHub (label:Bounty, last 7 days)",
+      "company": "Jennycruzy/sovereign-genesis",
+      "opportunityType": "Bounty",
+      "title": "Optimize GitHub Issue Polling Interval",
+      "description": "Analyze and optimize polling interval in scanner.js for GitHub Bounty issues. Implement dynamic polling strategy that adjusts based on activity.",
+      "whatTheyNeed": "JavaScript/Node.js - optimize polling strategy in scanner.js, implement dynamic interval based on activity levels.",
+      "howToReach": "https://github.com/Jennycruzy/sovereign-genesis/issues/62 - claim and submit PR",
+      "expectedBudget": "Bounty reward (amount not specified)",
+      "actionItems": ["Review scanner.js polling logic", "Implement dynamic polling strategy", "Submit PR"],
+      "urgency": "MEDIUM - Open 5 days",
+      "url": "https://github.com/Jennycruzy/sovereign-genesis/issues/62",
+      "techStack": ["JavaScript", "Node.js", "GitHub API"]
+    },
+    {
+      "id": "ph-dune-2026-04-21",
+      "source": "Product Hunt (April 21, 2026 launch)",
+      "company": "Dune",
+      "opportunityType": "New Product Launch - Integration/Developer Opportunity",
+      "title": "Dune - Context-aware Mac keypad for AI workflows",
+      "description": "Context-aware Mac keypad to automate workflows and meetings. 468 upvotes today. Recently launched on PH. Developer/API tool category.",
+      "whatTheyNeed": "Integration developers, API connectors, workflow automation help. They may need third-party integrations, API documentation, or automation scripts.",
+      "howToReach": "Product Hunt page: https://www.producthunt.com/products/dune-4 - reach out via comments or find their website/social",
+      "expectedBudget": "Negotiable - could be equity, cash, or credit depending on arrangement",
+      "actionItems": ["Visit PH page for website link", "Reach out offering integration/automation help", "Check if they have public API"],
+      "urgency": "MEDIUM - Just launched, actively building",
+      "url": "https://www.producthunt.com/products/dune-4",
+      "techStack": ["Mac", "Automation", "AI Workflows"]
+    },
+    {
+      "id": "ph-claude-desktop-buddy-2026-04-21",
+      "source": "Product Hunt (April 21, 2026 launch)",
+      "company": "Claude Desktop Buddy",
+      "opportunityType": "New Product Launch - Hardware + AI",
+      "title": "Claude Desktop Buddy - Bring Claude into physical world with maker hardware",
+      "description": "Hardware product that brings Claude AI into physical world. 313 upvotes. Open source + hardware + AI combination.",
+      "whatTheyNeed": "Hardware integration help, open source contributors, documentation. Maker/hardware category with AI.",
+      "howToReach": "Product Hunt page: https://www.producthunt.com/products/claude - check for GitHub link or maker contact",
+      "expectedBudget": "Negotiable - could be hardware, equity, or credit",
+      "actionItems": ["Visit PH page", "Check if open source GitHub exists", "Offer integration or documentation help"],
+      "urgency": "MEDIUM - Just launched",
+      "url": "https://www.producthunt.com/products/claude",
+      "techStack": ["Hardware", "AI", "Open Source"]
+    },
+    {
+      "id": "ph-waydev-2026-04-21",
+      "source": "Product Hunt (April 21, 2026 launch)",
+      "company": "Waydev",
+      "opportunityType": "New Product Launch - Developer Analytics",
+      "title": "The New Waydev - Measure full AI SDLC from token to production",
+      "description": "Developer analytics tool for measuring AI software development lifecycle. 293 upvotes. Productivity + Developer Tools + AI.",
+      "whatTheyNeed": "Integration developers, API help, analytics feature development. AI SDLC measurement is technically complex.",
+      "howToReach": "Product Hunt: https://www.producthunt.com/products/waydev - check for website/API docs",
+      "expectedBudget": "Negotiable partnership or contract work",
+      "actionItems": ["Visit PH page", "Check if API or integration program exists", "Offer development help"],
+      "urgency": "MEDIUM",
+      "url": "https://www.producthunt.com/products/waydev",
+      "techStack": ["Analytics", "AI", "Developer Tools"]
+    },
+    {
+      "id": "ph-maxhermes-2026-04-21",
+      "source": "Product Hunt (April 21, 2026 launch)",
+      "company": "MaxHermes (MiniMax)",
+      "opportunityType": "New Product Launch - AI Agent Cloud",
+      "title": "MaxHermes - World's first cloud sandbox Hermes Agent from MiniMax",
+      "description": "Cloud sandbox Hermes Agent from MiniMax. 72 upvotes. AI Agent infrastructure. This is directly related to our tech stack.",
+      "whatTheyNeed": "Could need beta testers, integration partners, documentation writers, example projects. MiniMax is a major AI company.",
+      "howToReach": "Product Hunt: https://www.producthunt.com/products/minimax - check website for partnership info",
+      "expectedBudget": "Could be credit, partnership, or referral arrangement",
+      "actionItems": ["Visit PH page", "Sign up as beta tester", "Build example integrations"],
+      "urgency": "MEDIUM - Related to our AI stack",
+      "url": "https://www.producthunt.com/products/minimax",
+      "techStack": ["AI Agents", "Cloud", "Sandbox"]
+    },
+    {
+      "id": "ph-wafer-pass-2026-04-21",
+      "source": "Product Hunt (April 21, 2026 launch)",
+      "company": "Wafer Pass",
+      "opportunityType": "New Product Launch - LLM API Aggregation",
+      "title": "Wafer Pass - Flat rate to best LLMs for OpenClaw, Hermes Agent, etc.",
+      "description": "Flat rate LLM pricing for OpenClaw, Hermes Agent, and other AI agents. 101 upvotes. Developer Tools + AI category. Explicitly mentions OpenClaw integration.",
+      "whatTheyNeed": "Integration testing with OpenClaw, documentation, feedback from AI agent perspective. They explicitly target AI agents as users.",
+      "howToReach": "Product Hunt: https://www.producthunt.com/products/wafer - check website for API or integration docs",
+      "expectedBudget": "Could be free usage credits, partnership, or referral fee",
+      "actionItems": ["Visit PH page", "Sign up and test with OpenClaw", "Provide integration feedback", "Potential affiliate/referral arrangement"],
+      "urgency": "MEDIUM - Direct synergy with our tools",
+      "url": "https://www.producthunt.com/products/wafer",
+      "techStack": ["LLM API", "AI Agents", "Integration"]
+    },
+    {
+      "id": "ph-fathom-2026-04-21",
+      "source": "Product Hunt (April 21, 2026 launch)",
+      "company": "Fathom",
+      "opportunityType": "Major Update Launch - AI Meeting Notes",
+      "title": "Fathom 3.0 - AI meeting notes: now bot-free, in ChatGPT & Claude + more",
+      "description": "Major 3.0 launch of Fathom AI meeting notes. 666 upvotes yesterday. Now works in ChatGPT & Claude. Bot-free meeting notes.",
+      "whatTheyNeed": "Integration developers for ChatGPT/Claude plugins, partnership/marketing help, possible no-code workflow integrations.",
+      "howToReach": "Product Hunt: https://www.producthunt.com/products/fathom - check for partnership/API info",
+      "expectedBudget": "Negotiable partnership or contract",
+      "actionItems": ["Visit PH page", "Check for plugin/API program", "Offer integration help"],
+      "urgency": "LOW - Established product, just a major update",
+      "url": "https://www.producthunt.com/products/fathom",
+      "techStack": ["AI", "Meetings", "ChatGPT/Claude Integration"]
+    },
+    {
+      "id": "github-sponsors-crown-engine",
+      "source": "GitHub Sponsors (recently accepted)",
+      "company": "dbartolini / Crown Game Engine",
+      "opportunityType": "Open Source Sponsorship",
+      "title": "Crown - Complete and cross-platform game engine",
+      "description": "dbartolini is building Crown game engine full-time. Cross-platform, designed for flexibility, performance, and fast iterations. Seeking sponsors.",
+      "whatTheyNeed": "Contributors, sponsors, game developers using the engine. Could need help with documentation, examples, or specific features.",
+      "howToReach": "https://github.com/sponsors/dbartolini - sponsor to connect, https://github.com/crownengine/crown",
+      "expectedBudget": "Exposure + potential paid consulting for active contributors + GitHub Sponsors recognition",
+      "actionItems": ["Contribute to Crown engine", "Build example games with it", "Connect via GitHub Sponsors"],
+      "urgency": "LOW",
+      "url": "https://github.com/crownengine/crown",
+      "techStack": ["Game Engine", "Cross-platform", "C/C++ or specified language"]
+    },
+    {
+      "id": "github-oss-cubepath-hackathon",
+      "source": "GitHub",
+      "company": "CubePath",
+      "opportunityType": "Hackathon",
+      "title": "CubePath Hackathon 2026",
+      "description": "Agriculture tech / automation hackathon. Next.js 16, Prisma, React, TypeScript, MySQL, Supabase stack. Active recently (updated April 21).",
+      "whatTheyNeed": "Agriculture tech, automation, Next.js projects for hackathon competition.",
+      "howToReach": "https://github.com/Joint-hynerpetonbassetti583/hackaton-cubepath-2026",
+      "expectedBudget": "Prize-based (specific amounts not listed)",
+      "actionItems": ["Check repo for prize details", "Build agriculture/automation project with listed stack"],
+      "urgency": "MEDIUM - Updated today",
+      "url": "https://github.com/Joint-hynerpetonbassetti583/hackaton-cubepath-2026",
+      "techStack": ["Next.js 16", "Prisma", "React", "TypeScript", "MySQL", "Supabase"]
+    },
+    {
+      "id": "github-oss-kana-dojo",
+      "source": "GitHub",
+      "company": "LingDojo / Kana Dojo",
+      "opportunityType": "Open Source Contribution",
+      "title": "Kana Dojo - Japanese Learning Platform",
+      "description": "Aesthetic, minimalist platform for learning Japanese. Beginner-friendly with 276 open issues. Sponsored by Vercel. 2,112 stars.",
+      "whatTheyNeed": "Contributors for Next.js/React TypeScript project. 276 open issues, many marked 'good first issue'.",
+      "howToReach": "https://github.com/lingdojo/kana-dojo/issues - look for 'good first issue' labels",
+      "expectedBudget": "Exposure + Vercel sponsorship + potential paid opportunities for active contributors",
+      "actionItems": ["Pick up 'good first issue' tickets", "Contribute consistently", "Check if Vercel has paid contributor programs"],
+      "urgency": "LOW",
+      "url": "https://github.com/lingdojo/kana-dojo"
+    },
+    {
+      "id": "freelance-upwork",
+      "source": "Upwork",
+      "company": "Upwork",
+      "opportunityType": "Freelance Work",
+      "title": "Upwork Freelance Platform",
+      "description": "Major freelance platform. Registration appears open. AI/coding skills in high demand.",
+      "whatTheyNeed": "Various freelance skills including AI integration, automation, web development",
+      "howToReach": "https://www.upwork.com",
+      "expectedBudget": "Variable - depends on skills and bidding, $50-200+/hr for AI/agent work",
+      "actionItems": ["Create profile highlighting AI/automation/OpenClaw skills", "Bid on AI agent, automation, integration jobs", "Set up quick response for new postings"],
+      "urgency": "MEDIUM",
+      "note": "May need browser access if web_fetch continues to be blocked"
+    },
+    {
+      "id": "freelance-freelancer",
+      "source": "Freelancer.com",
+      "company": "Freelancer.com",
+      "opportunityType": "Freelance Work",
+      "title": "Freelancer.com Platform",
+      "description": "Large freelance marketplace. Registration open, sign up available.",
+      "whatTheyNeed": "Various freelance skills",
+      "howToReach": "https://www.freelancer.com/signup",
+      "expectedBudget": "Variable",
+      "actionItems": ["Create account", "Browse AI/automation related jobs"],
+      "urgency": "MEDIUM"
+    },
+    {
+      "id": "github-clement-bounty-closed",
+      "source": "GitHub (label:bounty, CLOSED)",
+      "company": "ClementWalter/agent-captcha",
+      "opportunityType": "Bounty (CLOSED - Reference Only)",
+      "title": "$500 Bounty: Fake a Verified Post [CLOSED - Already Paid]",
+      "description": "This bounty has been CLOSED and the $500 was paid to another agent (sixty-dollar-agent) who submitted PR #2. Issue closed by owner on Apr 16. Reference for future similar opportunities.",
+      "whatTheyNeed": "N/A - Already completed",
+      "howToReach": "https://github.com/ClementWalter/agent-captcha/issues/1 - follow for future bounties from this repo",
+      "expectedBudget": "N/A - Already closed",
+      "actionItems": ["Watch this repo for future bounty issues", "The pattern: AI agent autonomously claims and completes bounty challenges"],
+      "urgency": "NONE - Closed",
+      "url": "https://github.com/ClementWalter/agent-captcha/issues/1",
+      "techStack": ["Rust", "AI Agents", "Security"],
+      "note": "Key insight: AI agents can autonomously complete bounties. $500 was paid. Watch this repo for more bounties."
     }
   ],
-
-  "action_plan": {
-    "immediate_this_week": [
-      "1. Apply to Arc.dev and Gun.io (both open registration, above-market pay)",
-      "2. Identify 2-3 RapidAPI APIs with no Zapier integration, draft outreach using template",
-      "3. Engage with Resend (React Email 6.0) on Twitter — offer template pack or integration",
-      "4. Post on Product Hunt for Hipocampus/Hacktron sharpsana — offer co-marketing"
-    ],
-    "this_month": [
-      "1. Pick 1-2 GitHub sponsors projects (frp or tech-interview-handbook = low barrier, fast wins)",
-      "2. Build n8n community node for Tavily or Jina AI — submit to n8n.io community nodes",
-      "3. Cold outreach to 5 indie Product Hunt launches with genuine value-add propositions",
-      "4. Create GitHub Sponsors profile if not already done, attach to contributions"
-    ]
+  "summary": {
+    "totalLeads": 20,
+    "highPriority": 4,
+    "actionableNow": 12,
+    "bounties": 7,
+    "productHuntLaunches": 7,
+    "ossProjects": 3,
+    "freelancePlatforms": 2,
+    "hackathons": 1
   },
-
-  "budget_estimates_by_category": {
-    "arc_dev_gunio": "$60-150+/hr for vetted devs",
-    "rapidapi_integration": "20-30% revenue share on API calls, ongoing",
-    "github_sponsors": "Recognition + potential $100-500+/mo for active maintainers",
-    "product_hunt_indie": "Early access, co-marketing, occasional $100-500 deals",
-    "product_hunt_enterprise": "Content/case study deals $1K-10K+",
-    "issuehunt_bounties": "$50-5000 per issue depending on complexity",
-    "gitcoin_grants": "Quadratic matching — time donation can attract significant funding"
-  }
+  "recommendations": [
+    {
+      "action": "Claim Rustchain bounty #2288 immediately",
+      "rationale": "25 RTC bounty for a straightforward TypeError fix. Open 2 days, only 18 comments. Clear deliverable.",
+      "effort": "LOW",
+      "potentialReturn": "25+ RTC tokens (~$25-250+)"
+    },
+    {
+      "action": "Submit to DEV OpenClaw Challenge before April 26",
+      "rationale": "$1,200 prize pool, deadline in 5 days. Requires blog post/tutorial about OpenClaw skills.",
+      "effort": "MEDIUM",
+      "potentialReturn": "$200-$1,200"
+    },
+    {
+      "action": "Reach out to Wafer Pass (PH product) about OpenClaw integration",
+      "rationale": "They explicitly mention OpenClaw as a target user. Direct synergy. Could be affiliate or partnership.",
+      "effort": "LOW",
+      "potentialReturn": "Free credits + referral fees"
+    },
+    {
+      "action": "Check Dasharo bounty issues for documentation tasks",
+      "rationale": "Multiple bounty-labeled issues, warmup task is just a banana bread recipe. Easy entry point to build relationship.",
+      "effort": "LOW",
+      "potentialReturn": "Bounty tokens + future larger bounties"
+    },
+    {
+      "action": "Watch ClementWalter/agent-captcha for future bounty issues",
+      "rationale": "They just paid $500 to an AI agent for completing a bounty. More bounties likely coming. Pattern: autonomous AI agent can claim.",
+      "effort": "LOW",
+      "potentialReturn": "Variable per bounty"
+    },
+    {
+      "action": "Create Upwork profile for AI agent/automation work",
+      "rationale": "AI agent development is high-demand. Can command $100-200+/hr. Platform registration is open.",
+      "effort": "MEDIUM",
+      "potentialReturn": "Ongoing income, $100-200+/hr"
+    }
+  ],
+  "blockedDuringResearch": [
+    "RapidAPI - iframe/JavaScript rendered, web_fetch blocked",
+    "Toptal - 403 blocked",
+    "Arc.dev - 403 blocked",
+    "GitHub API - 401 Bad credentials (tokens dead)"
+  ],
+  "keyInsights": [
+    "AI agents can autonomously complete GitHub bounty challenges (sixty-dollar-agent did it for $500)",
+    "Product Hunt launches are great for finding new products that need integration help",
+    "Wafer Pass explicitly targets OpenClaw as a user - direct outreach opportunity",
+    "MaxHermes (MiniMax cloud sandbox) is relevant to our AI stack",
+    "GitHub Sponsors is a long-term relationship builder, not immediate income",
+    "Web_fetch works on GitHub search pages but hits rate limits quickly",
+    "Playwright browser navigation is essential for JS-rendered pages"
+  ]
 }

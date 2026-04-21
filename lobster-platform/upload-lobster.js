@@ -1,4 +1,4 @@
-const token = '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';
+const token = 'ghp_REDACTED_TOKEN';
 const owner = 'D2758695161';
 const repo = 'wander-lobster-platform';
 const path = require('path');

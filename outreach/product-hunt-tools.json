@@ -1,0 +1,974 @@
+{
+  "researchDate": "2026-04-20",
+  "dateRange": "April 13-20, 2026",
+  "source": "Product Hunt RSS Feed (https://www.producthunt.com/feed)",
+  "methodology": "Extracted via Product Hunt Atom RSS feed (only source not blocked by Cloudflare). External websites verified via direct URL guessing. Maker profiles via GitHub/Twitter search.",
+  "totalProductsFound": 48,
+  "verifiedWebsites": [
+    {
+      "name": "GalaxyBrain",
+      "website": "https://galaxybrain.com",
+      "status": "VERIFIED - Full details collected"
+    }
+  ],
+  "products": [
+    {
+      "name": "GalaxyBrain",
+      "productHuntUrl": "https://www.producthunt.com/products/galaxybrain-com",
+      "website": "https://galaxybrain.com",
+      "appUrl": "https://app.galaxybrain.com",
+      "docsUrl": "https://galaxybrain.com/docs/galaxybrain/",
+      "launchDate": "2026-04-19",
+      "tagline": "An information operating system powered by local files",
+      "description": "Local file-based information OS. Write like a document, calculate like a spreadsheet, ready for any AI. No account needed, pages stored locally. Block-based editor with variables, formulas, cross-page linking. Works in Chrome/Edge/Brave desktop browsers. v0.9.2 beta.",
+      "category": "AI / Developer Tools / Local-first Software",
+      "maker": {
+        "name": "Jon-Paul Wheatley",
+        "productHuntProfile": "https://www.producthunt.com/@jon-wheatley",
+        "github": "https://github.com/galaxybrain",
+        "email": "hello@galaxybrain.com",
+        "discord": "https://discord.gg/XBuUT3HzgR"
+      },
+      "isPaid": "FREE (v0.9.2 beta) - monetization likely planned",
+      "potentialUseCases": [
+        "Local-first AI knowledge management integration",
+        "Documentation/workspace tool for developers",
+        "Affiliate/referral when paid plan launches",
+        "Partnership for AI feature development"
+      ],
+      "partnershipPotential": "HIGH - Independent maker, active community, verified contacts",
+      "notes": "VERIFIED WEBSITE. Independent maker (Jon-Paul Wheatley). Desktop app with local file storage. Interesting local-first AI tool. Discord community active. GitHub org exists. Beta is free - monetization planned. Great candidate for partnership."
+    },
+    {
+      "name": "QA Crow",
+      "productHuntUrl": "https://www.producthunt.com/products/qa-crow",
+      "launchDate": "2026-04-20",
+      "tagline": "A murder of crows for your bug backlog",
+      "description": "AI/multi-agent dev tool for bug backlog management. Uses a 'murder of crows' multi-agent metaphor for distributed bug processing.",
+      "category": "Developer Tools / AI",
+      "maker": {
+        "name": "Ryan Merket",
+        "productHuntProfile": "https://www.producthunt.com/@ryan-merket"
+      },
+      "isPaid": "Unknown - likely paid SaaS",
+      "potentialUseCases": [
+        "CI/CD pipeline integration",
+        "Bug reporting/management feature partnership",
+        "Developer tool bundle"
+      ],
+      "partnershipPotential": "MEDIUM-HIGH - Recent launch, independent maker",
+      "notes": "Most recent launch (Apr 20). Independent maker. Dev tool for bug backlog. Product Hunt URL available. Could try Twitter outreach to Ryan Merket."
+    },
+    {
+      "name": "MaxHermes",
+      "productHuntUrl": "https://www.producthunt.com/products/minimax",
+      "launchDate": "2026-04-20",
+      "tagline": "World's first cloud sandbox Hermes Agent from MiniMax",
+      "description": "Hermes Agent cloud sandbox from MiniMax. MiniMax is a major Chinese AI company. AI agent platform.",
+      "category": "AI / SaaS / AI Agents",
+      "maker": {
+        "name": "Zac Zuo (MiniMax team)",
+        "productHuntProfile": "https://www.producthunt.com/@zac-zuo",
+        "github": "https://github.com/minimax",
+        "company": "MiniMax"
+      },
+      "isPaid": "PAID - MiniMax commercial product",
+      "potentialUseCases": [
+        "AI agent integration partnership",
+        "API partnership",
+        "Affiliate marketing"
+      ],
+      "partnershipPotential": "HIGH - Major AI company (MiniMax), funded",
+      "notes": "MiniMax is a significant funded AI company. Major partnership potential. Zac Zuo is likely their DevRel. GitHub org exists (https://github.com/minimax)."
+    },
+    {
+      "name": "Claude Desktop Buddy",
+      "productHuntUrl": "https://www.producthunt.com/products/claude",
+      "launchDate": "2026-04-20",
+      "tagline": "Bring Claude into the physical world with maker hardware",
+      "description": "Hardware+AI product that connects Claude (Anthropic's AI) to the physical world. Maker hardware project.",
+      "category": "AI / Hardware / Developer Tools",
+      "maker": {
+        "name": "Zac Zuo",
+        "productHuntProfile": "https://www.producthunt.com/@zac-zuo"
+      },
+      "isPaid": "PAID - hardware product",
+      "potentialUseCases": [
+        "Claude API integration",
+        "Hardware partnership",
+        "Maker community content"
+      ],
+      "partnershipPotential": "MEDIUM - Same maker as MaxHermes, hardware angle",
+      "notes": "Same maker as MaxHermes. Hardware + Claude AI - interesting for maker community content/stories."
+    },
+    {
+      "name": "EchoTube",
+      "productHuntUrl": "https://www.producthunt.com/products/echotube-open-source-youtube-client",
+      "launchDate": "2026-04-19",
+      "tagline": "Fast, private Open Source YouTube client",
+      "description": "Open source YouTube client - privacy-focused, fast alternative to YouTube's official client.",
+      "category": "Browser Extensions / Open Source / SaaS",
+      "maker": {
+        "name": "Aditya Yadav",
+        "productHuntProfile": "https://www.producthunt.com/@aditya-yadav"
+      },
+      "isPaid": "Free / Open Source",
+      "potentialUseCases": [
+        "Open source collaboration",
+        "Browser extension distribution",
+        "Community building"
+      ],
+      "partnershipPotential": "MEDIUM - Open source, good for community goodwill",
+      "notes": "OPEN SOURCE. Could recommend to privacy-conscious users. GitHub may exist but username guess didn't work. Try PH profile for GitHub link."
+    },
+    {
+      "name": "SuperBrain",
+      "productHuntUrl": "https://www.producthunt.com/products/superbrain-ai-powered-second-brain",
+      "launchDate": "2026-04-19",
+      "tagline": "Self-hosted, AI-powered second brain for Android",
+      "description": "Self-hosted AI second brain for Android. Personal knowledge management with AI, running on your own server.",
+      "category": "AI / SaaS / Self-hosted",
+      "maker": {
+        "name": "Siddharth Shinde",
+        "productHuntProfile": "https://www.producthunt.com/@siddharth-shinde",
+        "github": "https://github.com/superbrain"
+      },
+      "isPaid": "Likely paid self-hosted",
+      "potentialUseCases": [
+        "Self-hosted AI knowledge management integration",
+        "Android app distribution partnership",
+        "Local AI tool bundle"
+      ],
+      "partnershipPotential": "MEDIUM - GitHub exists, self-hosted angle is interesting",
+      "notes": "Self-hosted AI second brain. GitHub org exists (https://github.com/superbrain). Good for local AI tools community."
+    },
+    {
+      "name": "Pegasus 1.5 by TwelveLabs",
+      "productHuntUrl": "https://www.producthunt.com/products/twelvelabs",
+      "launchDate": "2026-04-14",
+      "tagline": "AI model for transforming video into Time-Based Metadata",
+      "description": "AI model that generates time-based metadata from video content. Video understanding/analysis platform.",
+      "category": "AI / Developer Tools / API",
+      "maker": {
+        "name": "fmerian (TwelveLabs team)",
+        "productHuntProfile": "https://www.producthunt.com/@fmerian",
+        "company": "TwelveLabs",
+        "github": "https://github.com/twelvelabs",
+        "companyUrl": "https://twelvelabs.io"
+      },
+      "isPaid": "PAID - Enterprise AI product",
+      "potentialUseCases": [
+        "Video AI API partnership",
+        "Integration with video platforms",
+        "Affiliate/commission partnership"
+      ],
+      "partnershipPotential": "HIGH - Funded AI company (TwelveLabs), Skip Baney is GitHub owner",
+      "notes": "TwelveLabs is a funded AI company. GitHub shows Skip Baney as owner. Major enterprise product - potential significant partnership."
+    },
+    {
+      "name": "Knowzilla",
+      "productHuntUrl": "https://www.producthunt.com/products/knowzilla",
+      "launchDate": "2026-04-15",
+      "tagline": "Real-time AI for sales that guides every deal",
+      "description": "AI tool for sales teams - provides real-time guidance during sales calls and deal management.",
+      "category": "AI / SaaS / Sales Tools",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid SaaS",
+      "potentialUseCases": [
+        "Sales automation integration",
+        "Partnership for sales tool stack",
+        "CRM integration"
+      ],
+      "partnershipPotential": "MEDIUM - Sales AI, niche vertical",
+      "notes": "Sales AI tool - B2B partnership potential."
+    },
+    {
+      "name": "Dune",
+      "productHuntUrl": "https://www.producthunt.com/products/dune-4",
+      "launchDate": "2026-04-16",
+      "tagline": "Context-aware Mac keypad to automate workflows + meetings",
+      "description": "Mac keypad hardware/software that contextually automates workflows and meetings. Physical keyboard extension for Mac.",
+      "category": "Developer Tools / Productivity / Hardware",
+      "maker": {
+        "name": "Rohan Chaubey",
+        "productHuntProfile": "https://www.producthunt.com/@rohan-chaubey"
+      },
+      "isPaid": "PAID - hardware product",
+      "potentialUseCases": [
+        "Hardware partnership",
+        "Workflow automation integration",
+        "Developer productivity bundle"
+      ],
+      "partnershipPotential": "MEDIUM - Hardware product for Mac developers",
+      "notes": "Hardware Mac keypad - not related to Dune Analytics. GitHub exists (https://github.com/dune) but may be a different project."
+    },
+    {
+      "name": "OptionV",
+      "productHuntUrl": "https://www.producthunt.com/products/optionv-clipboard-manager-for-mac",
+      "launchDate": "2026-04-16",
+      "tagline": "MacOS menubar clipboard manager",
+      "description": "Clipboard manager for MacOS - runs as a menubar app.",
+      "category": "Developer Tools / Productivity / Mac App",
+      "maker": {
+        "name": "Batuhan YILDIRIM",
+        "productHuntProfile": "https://www.producthunt.com/@batuhan-yildirim"
+      },
+      "isPaid": "Likely freemium",
+      "potentialUseCases": [
+        "Mac utility bundle",
+        "Developer tool partnership"
+      ],
+      "partnershipPotential": "LOW - Small utility app, limited partnership upside",
+      "notes": "Mac menubar clipboard manager - small utility app."
+    },
+    {
+      "name": "TorchTPU",
+      "productHuntUrl": "https://www.producthunt.com/products/google",
+      "launchDate": "2026-04-15",
+      "tagline": "Running PyTorch Natively on TPUs at Google Scale",
+      "description": "Tool to run PyTorch on Google TPU hardware at scale. ML infrastructure tool.",
+      "category": "Developer Tools / AI Infrastructure",
+      "maker": {
+        "name": "Rohan Chaubey",
+        "productHuntProfile": "https://www.producthunt.com/@rohan-chaubey"
+      },
+      "isPaid": "Free / Google infrastructure",
+      "potentialUseCases": [
+        "AI infrastructure partnership",
+        "ML tooling integration"
+      ],
+      "partnershipPotential": "MEDIUM - ML infrastructure, open approach",
+      "notes": "PyTorch + Google TPU integration - technical developer tool."
+    },
+    {
+      "name": "Ona AI",
+      "productHuntUrl": "https://www.producthunt.com/products/ona-ai",
+      "launchDate": "2026-04-16",
+      "tagline": "Building digital sign language avatars & inclusive datasets",
+      "description": "AI for sign language - digital avatars and datasets for accessibility/inclusion.",
+      "category": "AI / Accessibility / Healthcare",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid",
+      "potentialUseCases": [
+        "Accessibility integration",
+        "Healthcare AI partnership"
+      ],
+      "partnershipPotential": "MEDIUM - Unique accessibility AI",
+      "notes": "Sign language AI - unique and impactful accessibility use case."
+    },
+    {
+      "name": "Papayo.ai",
+      "productHuntUrl": "https://www.producthunt.com/products/papayo-ai",
+      "launchDate": "2026-04-16",
+      "tagline": "AI hiring assistant for recruiting agencies",
+      "description": "AI assistant for recruitment - automates candidate sourcing, screening, or interview prep.",
+      "category": "AI / SaaS / HR Tech",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid SaaS",
+      "potentialUseCases": [
+        "HR tech partnership",
+        "AI agent integration"
+      ],
+      "partnershipPotential": "MEDIUM - HR tech vertical",
+      "notes": "Recruitment AI - B2B SaaS."
+    },
+    {
+      "name": "Auxilius.ai",
+      "productHuntUrl": "https://www.producthunt.com/products/auxilius-ai",
+      "launchDate": "2026-04-16",
+      "tagline": "Turn compliance into code with agentic AI",
+      "description": "Compliance-as-code platform using agentic AI. Automates turning regulatory requirements into implementable code.",
+      "category": "AI / Developer Tools / Legal Tech",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid enterprise",
+      "potentialUseCases": [
+        "Legal tech integration",
+        "Developer tool partnership",
+        "Enterprise compliance automation"
+      ],
+      "partnershipPotential": "HIGH - Hot area (compliance-as-code + agentic AI)",
+      "notes": "Compliance-as-code with agentic AI is very timely. Strong developer tool angle."
+    },
+    {
+      "name": "Granter",
+      "productHuntUrl": "https://www.producthunt.com/products/granter-ai",
+      "launchDate": "2026-04-16",
+      "tagline": "Your company's AI Grant Consultant",
+      "description": "AI tool for company grant management - applications, compliance, and tracking.",
+      "category": "AI / SaaS / Legal Finance",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid",
+      "potentialUseCases": [
+        "B2B SaaS partnership",
+        "Startup ecosystem integration"
+      ],
+      "partnershipPotential": "MEDIUM - Niche but valuable for founders/startups",
+      "notes": "Grant AI for companies - valuable for startup audience."
+    },
+    {
+      "name": "PangeAI",
+      "productHuntUrl": "https://www.producthunt.com/products/pangeai",
+      "launchDate": "2026-04-16",
+      "tagline": "Instant, agent-driven spatial analysis and decision-making",
+      "description": "Agent-driven spatial analysis platform for geographic/geospatial decision-making.",
+      "category": "AI / SaaS / Data Analysis",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid",
+      "potentialUseCases": [
+        "Geospatial API integration",
+        "Decision-making tool partnership"
+      ],
+      "partnershipPotential": "MEDIUM - Emerging spatial AI area",
+      "notes": "Spatial AI is an emerging area. Agent-driven approach is cutting edge."
+    },
+    {
+      "name": "DaiOff",
+      "productHuntUrl": "https://www.producthunt.com/products/daioff",
+      "launchDate": "2026-04-16",
+      "tagline": "Manage cases, audit contracts, and stay legally current",
+      "description": "Legal AI for case management, contract auditing, and legal research/tracking.",
+      "category": "AI / Legal Tech / SaaS",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid",
+      "potentialUseCases": [
+        "Legal tech partnership",
+        "Contract automation integration"
+      ],
+      "partnershipPotential": "MEDIUM - Legal AI",
+      "notes": "Legal AI - growing B2B space."
+    },
+    {
+      "name": "Silex",
+      "productHuntUrl": "https://www.producthunt.com/products/silex-2",
+      "launchDate": "2026-04-16",
+      "tagline": "Swiss legal AI, built by lawyers for lawyers",
+      "description": "Legal AI specifically for Swiss law - built by practicing lawyers, not just tech people.",
+      "category": "AI / Legal Tech / SaaS",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid",
+      "potentialUseCases": [
+        "Legal tech partnership",
+        "Regional legal AI expansion"
+      ],
+      "partnershipPotential": "MEDIUM - Regional legal AI with domain expertise",
+      "notes": "Swiss-specific legal AI - strong domain expertise by lawyers."
+    },
+    {
+      "name": "In Parallel",
+      "productHuntUrl": "https://www.producthunt.com/products/in-parallel",
+      "launchDate": "2026-04-16",
+      "tagline": "The Operating System for Execution",
+      "description": "Execution OS - productivity/project management platform for executing tasks/workflows.",
+      "category": "SaaS / Productivity",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid",
+      "potentialUseCases": [
+        "Productivity tool integration",
+        "Project management partnership"
+      ],
+      "partnershipPotential": "MEDIUM - Bold tagline, execution OS is interesting",
+      "notes": "Bold 'OS for execution' positioning. Could be interesting alternative to existing PM tools."
+    },
+    {
+      "name": "Mainteny",
+      "productHuntUrl": "https://www.producthunt.com/products/mainteny",
+      "launchDate": "2026-04-16",
+      "tagline": "AI-powered Operating System for Maintenance Companies",
+      "description": "OS for maintenance/field service companies - AI-powered management of maintenance operations.",
+      "category": "AI / SaaS / Field Service",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid B2B",
+      "potentialUseCases": [
+        "Field service integration",
+        "B2B SaaS partnership"
+      ],
+      "partnershipPotential": "LOW-MEDIUM - Niche vertical SaaS",
+      "notes": "Vertical SaaS for maintenance industry."
+    },
+    {
+      "name": "Wavelr",
+      "productHuntUrl": "https://www.producthunt.com/products/wavelr",
+      "launchDate": "2026-04-16",
+      "tagline": "AI-native Decision Intelligence for renewable investments",
+      "description": "Decision intelligence platform for renewable energy investments. AI + finance + cleantech.",
+      "category": "AI / SaaS / Cleantech",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid B2B",
+      "potentialUseCases": [
+        "Cleantech partnership",
+        "Financial AI integration"
+      ],
+      "partnershipPotential": "MEDIUM - Hot cleantech vertical",
+      "notes": "Renewable energy + AI is hot. Decision intelligence framing is compelling."
+    },
+    {
+      "name": "nooxit",
+      "productHuntUrl": "https://www.producthunt.com/products/nooxit",
+      "launchDate": "2026-04-16",
+      "tagline": "AI workers for the procurement back office saving 90% costs",
+      "description": "AI agents for procurement automation in back offices. Bold 90% cost savings claim.",
+      "category": "AI / SaaS / Enterprise",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "PAID - enterprise product",
+      "potentialUseCases": [
+        "Enterprise procurement integration",
+        "AI agent partnership",
+        "Cost savings pitch"
+      ],
+      "partnershipPotential": "HIGH - Bold 90% cost claim, enterprise focus",
+      "notes": "Bold 90% cost claim. Enterprise procurement AI - serious product with strong pitch."
+    },
+    {
+      "name": "Appear",
+      "productHuntUrl": "https://www.producthunt.com/products/appear-on-ai",
+      "launchDate": "2026-04-16",
+      "tagline": "Optimize your brand for ChatGPT, Claude, and Gemini",
+      "description": "Brand optimization for AI search engines - helping brands get discovered by AI assistants.",
+      "category": "AI / Marketing / SaaS",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid",
+      "potentialUseCases": [
+        "Marketing AI integration",
+        "Brand/SEO partnership",
+        "AI discovery optimization"
+      ],
+      "partnershipPotential": "HIGH - Very timely (AI SEO/brand optimization)",
+      "notes": "AI SEO/brand optimization is extremely timely given rise of AI assistants. HIGH potential."
+    },
+    {
+      "name": "Claro",
+      "productHuntUrl": "https://www.producthunt.com/products/getclaro",
+      "launchDate": "2026-04-16",
+      "tagline": "Claro runs the AI agents that operate on your data",
+      "description": "AI agents that operate on user data - data privacy and control while using AI.",
+      "category": "AI / SaaS / Data Privacy",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid",
+      "potentialUseCases": [
+        "Data privacy partnership",
+        "AI agent framework integration"
+      ],
+      "partnershipPotential": "MEDIUM - Privacy-focused AI agents",
+      "notes": "AI agents on your data - privacy angle is important."
+    },
+    {
+      "name": "Cubik.one",
+      "productHuntUrl": "https://www.producthunt.com/products/cubik-one",
+      "launchDate": "2026-04-14",
+      "tagline": "Tool-free modular 3D cubes to build anything in real life",
+      "description": "Modular building blocks/cubes for physical construction - no tools needed.",
+      "category": "Consumer / Hardware / Productivity",
+      "maker": {
+        "name": "Yury Seliverstov",
+        "productHuntProfile": "https://www.producthunt.com/@yury-seliverstov"
+      },
+      "isPaid": "PAID - physical product",
+      "potentialUseCases": [
+        "Hardware partnership",
+        "Physical product distribution"
+      ],
+      "partnershipPotential": "LOW - Physical product, not tech-focused",
+      "notes": "Physical modular cubes - maker tool, not AI/tech focused."
+    },
+    {
+      "name": "DogBase v2",
+      "productHuntUrl": "https://www.producthunt.com/products/dogbase",
+      "launchDate": "2026-04-16",
+      "tagline": "The AI-powered platform built for professional K9 teams",
+      "description": "AI platform for professional K9 (police/military dog) teams - training, tracking, analysis.",
+      "category": "AI / SaaS / Public Safety",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid B2B",
+      "potentialUseCases": [
+        "Public safety AI partnership",
+        "K9 training platform"
+      ],
+      "partnershipPotential": "MEDIUM - Unusual niche with high value",
+      "notes": "Very niche - professional K9 teams. AI for dog training is unusual but potentially high value."
+    },
+    {
+      "name": "MIRA vision",
+      "productHuntUrl": "https://www.producthunt.com/products/mira-vision",
+      "launchDate": "2026-04-16",
+      "tagline": "AI-powered pathology analysis with synthetic data",
+      "description": "AI for medical pathology analysis - uses synthetic training data for privacy/compliance.",
+      "category": "AI / Healthcare / SaaS",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "PAID - healthcare enterprise",
+      "potentialUseCases": [
+        "Healthcare AI partnership",
+        "Medical imaging integration"
+      ],
+      "partnershipPotential": "HIGH - Healthcare AI, synthetic data is smart",
+      "notes": "Healthcare AI with synthetic data is a smart approach for privacy/HIPAA. Serious domain."
+    },
+    {
+      "name": "Let's Barter",
+      "productHuntUrl": "https://www.producthunt.com/products/let-s-barter",
+      "launchDate": "2026-04-20",
+      "tagline": "Why buy when you can Barter?",
+      "description": "Barter/exchange platform - trade goods/services without money.",
+      "category": "SaaS / Marketplace / Consumer",
+      "maker": {
+        "name": "Yash Gupta",
+        "productHuntProfile": "https://www.producthunt.com/@yash-gupta"
+      },
+      "isPaid": "Likely free or transaction-fee model",
+      "potentialUseCases": [
+        "Community building"
+      ],
+      "partnershipPotential": "LOW - Consumer marketplace",
+      "notes": "Barter marketplace - consumer app."
+    },
+    {
+      "name": "Lia",
+      "productHuntUrl": "https://www.producthunt.com/products/lia-3",
+      "launchDate": "2026-04-16",
+      "tagline": "Manages invoices, reminders, + repayment plans autonomously",
+      "description": "AI for autonomous invoice management, reminders, and repayment planning.",
+      "category": "AI / SaaS / Finance",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely freemium",
+      "potentialUseCases": [
+        "Finance tool integration",
+        "Autonomous finance management"
+      ],
+      "partnershipPotential": "MEDIUM - Finance automation for SMBs",
+      "notes": "Autonomous invoice/repayment management - useful for small businesses."
+    },
+    {
+      "name": "INPUT SOFT",
+      "productHuntUrl": "https://www.producthunt.com/products/input-soft",
+      "launchDate": "2026-04-16",
+      "tagline": "Management platform for airport operations",
+      "description": "Platform for airport management and operations.",
+      "category": "SaaS / Enterprise / Aviation",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "PAID - enterprise aviation",
+      "potentialUseCases": [
+        "Enterprise aviation software"
+      ],
+      "partnershipPotential": "LOW - Very niche enterprise",
+      "notes": "Airport operations - very niche enterprise SaaS."
+    },
+    {
+      "name": "CONA",
+      "productHuntUrl": "https://www.producthunt.com/products/cona",
+      "launchDate": "2026-04-16",
+      "tagline": "E-commerce accounting that runs itself",
+      "description": "Automated accounting for e-commerce businesses.",
+      "category": "AI / SaaS / Finance / E-commerce",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid",
+      "potentialUseCases": [
+        "E-commerce finance integration",
+        "Accounting automation partnership"
+      ],
+      "partnershipPotential": "MEDIUM - E-commerce accounting automation",
+      "notes": "E-commerce accounting - good fit for online sellers."
+    },
+    {
+      "name": "Tetractys",
+      "productHuntUrl": "https://www.producthunt.com/products/tetractys",
+      "launchDate": "2026-04-16",
+      "tagline": "AI for biomanufacturers",
+      "description": "AI tools for biomanufacturing industry - production optimization.",
+      "category": "AI / SaaS / Biotech",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid enterprise",
+      "potentialUseCases": [
+        "Biotech AI partnership"
+      ],
+      "partnershipPotential": "MEDIUM - Specialized biotech AI",
+      "notes": "Biomanufacturing AI - highly technical specialized product."
+    },
+    {
+      "name": "Tinkery",
+      "productHuntUrl": "https://www.producthunt.com/products/tinkery",
+      "launchDate": "2026-04-16",
+      "tagline": "Revenue clarity for growing businesses",
+      "description": "Revenue analytics and forecasting for growing businesses.",
+      "category": "SaaS / Finance / Analytics",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid",
+      "potentialUseCases": [
+        "Revenue analytics integration"
+      ],
+      "partnershipPotential": "MEDIUM - SMB revenue analytics",
+      "notes": "Revenue clarity - financial analytics for SMBs."
+    },
+    {
+      "name": "Hyphen Global",
+      "productHuntUrl": "https://www.producthunt.com/products/hyphen-global",
+      "launchDate": "2026-04-16",
+      "tagline": "Real-time quantification of greenhouse gas removals",
+      "description": "Carbon credit/ESG measurement - real-time GHG removal quantification.",
+      "category": "AI / SaaS / Climate Tech",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid B2B",
+      "potentialUseCases": [
+        "Climate tech partnership",
+        "Carbon credit market integration"
+      ],
+      "partnershipPotential": "HIGH - Hot climate/ESG vertical",
+      "notes": "Climate/ESG tool - hot vertical. Real-time GHG quantification is impressive."
+    },
+    {
+      "name": "CryptoMate",
+      "productHuntUrl": "https://www.producthunt.com/products/cryptomate",
+      "launchDate": "2026-04-16",
+      "tagline": "Global financial infrastructure for LatAm businesses",
+      "description": "Financial infrastructure for Latin American businesses using stablecoins/crypto.",
+      "category": "SaaS / Fintech / LatAm",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid",
+      "potentialUseCases": [
+        "LatAm fintech partnership"
+      ],
+      "partnershipPotential": "MEDIUM - Regional fintech",
+      "notes": "LatAm crypto fintech - specific regional play."
+    },
+    {
+      "name": "Telagri",
+      "productHuntUrl": "https://www.producthunt.com/products/telagri",
+      "launchDate": "2026-04-16",
+      "tagline": "Smarter agri-lending with real-time field visibility",
+      "description": "Agricultural lending with satellite/field monitoring for risk assessment.",
+      "category": "SaaS / Fintech / Agritech",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid B2B",
+      "potentialUseCases": [
+        "Agritech partnership"
+      ],
+      "partnershipPotential": "MEDIUM - Agritech + fintech mix",
+      "notes": "Agricultural lending with real-time field visibility - satellite + lending."
+    },
+    {
+      "name": "intouch",
+      "productHuntUrl": "https://www.producthunt.com/products/intouch-2",
+      "launchDate": "2026-04-16",
+      "tagline": "Daily AI phone conversations for seniors, 24/7",
+      "description": "AI companion phone calls for elderly/seniors - daily check-ins via AI phone calls.",
+      "category": "AI / Healthcare / Elder Care",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid subscription",
+      "potentialUseCases": [
+        "Elder care integration",
+        "Healthcare AI partnership"
+      ],
+      "partnershipPotential": "HIGH - Heartwarming use case, strong story",
+      "notes": "AI phone companion for seniors - heartwarming use case, strong content/marketing story. 24/7 availability is compelling."
+    },
+    {
+      "name": "EyeOnBlue",
+      "productHuntUrl": "https://www.producthunt.com/products/eyeonblue",
+      "launchDate": "2026-04-16",
+      "tagline": "Remote sensing and AI from space",
+      "description": "Satellite + AI for Earth observation, remote sensing applications.",
+      "category": "AI / Aerospace / SaaS",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "PAID - enterprise satellite",
+      "potentialUseCases": [
+        "Satellite imagery API",
+        "Earth observation partnership"
+      ],
+      "partnershipPotential": "MEDIUM-HIGH - Space + AI is compelling",
+      "notes": "Space + AI - remote sensing from satellites. Very technical, enterprise-focused."
+    },
+    {
+      "name": "GRANDMAMA",
+      "productHuntUrl": "https://www.producthunt.com/products/grandmama",
+      "launchDate": "2026-04-16",
+      "tagline": "Transforming Homecare, Everywhere!",
+      "description": "Homecare/healthcare platform for home health services.",
+      "category": "SaaS / Healthcare / Home Care",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid",
+      "potentialUseCases": [
+        "Homecare platform integration"
+      ],
+      "partnershipPotential": "MEDIUM - Elder care/home health",
+      "notes": "Homecare transformation - elder care platform."
+    },
+    {
+      "name": "Alerts Bar",
+      "productHuntUrl": "https://www.producthunt.com/products/alerts-bar",
+      "launchDate": "2026-04-16",
+      "tagline": "Darknet monitoring for infected computers and stolen data",
+      "description": "Cybersecurity monitoring - darknet monitoring for leaked credentials and infected machines.",
+      "category": "SaaS / Cybersecurity",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid",
+      "potentialUseCases": [
+        "Cybersecurity partnership"
+      ],
+      "partnershipPotential": "MEDIUM - Cybersecurity tool",
+      "notes": "Darknet monitoring - security monitoring tool."
+    },
+    {
+      "name": "Zombie Delete",
+      "productHuntUrl": "https://www.producthunt.com/products/together-alone-ventures",
+      "launchDate": "2026-04-16",
+      "tagline": "Docusign for provable deletion - anywhere, everywhere",
+      "description": "Provable data deletion service - like DocuSign but for proving data was deleted (GDPR/compliance).",
+      "category": "SaaS / Cybersecurity / Legal Tech",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely paid",
+      "potentialUseCases": [
+        "Data privacy compliance",
+        "Legal deletion proof"
+      ],
+      "partnershipPotential": "MEDIUM - GDPR/compliance angle is strong",
+      "notes": "Provable deletion - GDPR/compliance tool. Interesting concept."
+    },
+    {
+      "name": "AICW Summarize Widget",
+      "productHuntUrl": "https://www.producthunt.com/products/aicw-summarize-widget",
+      "launchDate": "2026-04-16",
+      "tagline": "AI summarization widget (exact description unavailable in RSS)",
+      "description": "AI summarization widget - likely browser extension or embeddable component.",
+      "category": "AI / Browser Extension",
+      "maker": {
+        "name": "Eugene Mi",
+        "productHuntProfile": "https://www.producthunt.com/@eugene-mi",
+        "github": "https://github.com/aicw"
+      },
+      "isPaid": "Unknown",
+      "potentialUseCases": [
+        "Content summarization",
+        "Browser extension distribution"
+      ],
+      "partnershipPotential": "MEDIUM - AI summarization is useful",
+      "notes": "AI summarization widget. GitHub exists (aicw)."
+    },
+    {
+      "name": "kaizen",
+      "productHuntUrl": "https://www.producthunt.com/products/kaizen-7",
+      "launchDate": "2026-04-16",
+      "tagline": "Run training that adapts based on the running you do",
+      "description": "Adaptive running/fitness training app that adjusts based on user's running data.",
+      "category": "SaaS / Consumer / Health & Fitness",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely freemium",
+      "potentialUseCases": [
+        "Fitness app integration"
+      ],
+      "partnershipPotential": "LOW - Consumer fitness app",
+      "notes": "Adaptive running training - personal fitness."
+    },
+    {
+      "name": "tasteit",
+      "productHuntUrl": "https://www.producthunt.com/products/tasteit",
+      "launchDate": "2026-04-16",
+      "tagline": "The food social network to meet people over food",
+      "description": "Social network for meeting people over food - dining companion/social app.",
+      "category": "SaaS / Social / Consumer",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely free/freemium",
+      "potentialUseCases": [
+        "Social/community building"
+      ],
+      "partnershipPotential": "LOW - Consumer social app",
+      "notes": "Food social network - consumer social app."
+    },
+    {
+      "name": "Urbned",
+      "productHuntUrl": "https://www.producthunt.com/products/urbned-2",
+      "launchDate": "2026-04-16",
+      "tagline": "Send money like a Text Message. Powered by Stablecoins.",
+      "description": "Stablecoin-based remittance/payments with SMS-like UX.",
+      "category": "SaaS / Fintech / Payments",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Likely transaction-fee model",
+      "potentialUseCases": [
+        "Cross-border payments",
+        "Stablecoin integration"
+      ],
+      "partnershipPotential": "MEDIUM - Stablecoin payments is interesting",
+      "notes": "Stablecoin payments with SMS UX - interesting take on remittance."
+    },
+    {
+      "name": "Vertai Technology",
+      "productHuntUrl": "https://www.producthunt.com/products/vertai-technology",
+      "launchDate": "2026-04-16",
+      "tagline": "(site is a launching-soon placeholder)",
+      "description": "Placeholder launch - no real product yet.",
+      "category": "Unknown",
+      "maker": {
+        "name": "Rajiv Ayyangar",
+        "productHuntProfile": "https://www.producthunt.com/@rajiv-ayyangar"
+      },
+      "isPaid": "Unknown",
+      "potentialUseCases": [],
+      "partnershipPotential": "LOW - No real product yet",
+      "notes": "Placeholder - no real product site yet."
+    }
+  ],
+  "topPriorityForOutreach": [
+    {
+      "rank": 1,
+      "name": "GalaxyBrain",
+      "reason": "VERIFIED with contact info. Independent maker. Active community. Free beta -> paid plan coming. Great AI/dev tool angle.",
+      "contact": "hello@galaxybrain.com, Discord: https://discord.gg/XBuUT3HzgR"
+    },
+    {
+      "rank": 2,
+      "name": "MaxHermes (MiniMax)",
+      "reason": "Major funded AI company. AI agent platform. Significant partnership potential.",
+      "contact": "Via GitHub https://github.com/minimax or PH profile"
+    },
+    {
+      "rank": 3,
+      "name": "Pegasus 1.5 by TwelveLabs",
+      "reason": "Funded AI company. Video AI is valuable. Enterprise product with affiliate/commission potential.",
+      "contact": "GitHub https://github.com/twelvelabs, Skip Baney"
+    },
+    {
+      "rank": 4,
+      "name": "nooxit",
+      "reason": "Bold 90% cost savings claim for enterprise. Strong pitch for AI agents in procurement.",
+      "contact": "PH profile: @rajiv-ayyangar"
+    },
+    {
+      "rank": 5,
+      "name": "Appear",
+      "reason": "AI SEO/brand optimization is extremely timely. Very relevant for AI assistant era.",
+      "contact": "PH profile: @rajiv-ayyangar"
+    },
+    {
+      "rank": 6,
+      "name": "Auxilius.ai",
+      "reason": "Compliance-as-code + agentic AI is very timely. Strong dev tool angle.",
+      "contact": "PH profile: @rajiv-ayyangar"
+    },
+    {
+      "rank": 7,
+      "name": "Hyphen Global",
+      "reason": "Climate/ESG is hot vertical. Real-time GHG quantification is impressive.",
+      "contact": "PH profile: @rajiv-ayyangar"
+    },
+    {
+      "rank": 8,
+      "name": "intouch",
+      "reason": "AI phone companion for seniors - heartwarming story, strong content/marketing angle.",
+      "contact": "PH profile: @rajiv-ayyangar"
+    },
+    {
+      "rank": 9,
+      "name": "QA Crow",
+      "reason": "Most recent launch (Apr 20). Dev tool for bug backlog. Independent maker.",
+      "contact": "PH profile: @ryan-merket"
+    },
+    {
+      "rank": 10,
+      "name": "MIRA vision",
+      "reason": "Healthcare AI with synthetic data is smart. Serious domain, serious product.",
+      "contact": "PH profile: @rajiv-ayyangar"
+    }
+  ],
+  "dataQualityNotes": [
+    "Product Hunt blocked all direct web page access via Cloudflare",
+    "Only the Atom RSS feed was accessible (https://www.producthunt.com/feed)",
+    "GalaxyBrain website verified via direct URL (galaxybrain.com)",
+    "GitHub profiles found for: GalaxyBrain, TwelveLabs, SuperBrain, Dune, MiniMax, AICW",
+    "Most products from Rajiv Ayyangar launched on same day (suspicious batch launch pattern - possibly a PH launch service)",
+    "Quality independent launches: GalaxyBrain, QA Crow, EchoTube, Pegasus 1.5, Dune, TorchTPU, SuperBrain, MaxHermes, Claude Desktop Buddy, Cubik.one, Let's Barter",
+    "Maker contact info from PH profiles unavailable due to Cloudflare - would need manual access or email lookup"
+  ]
+}

@@ -495,5 +495,94 @@
       "emails_sent_this_session": 1,
       "smtp_auth": "TLfTvAJBC8QKxxre - WORKING via smtp.163.com:465 SSL"
     }
+  ],
+  "jobs_appended_2026-04-21": [
+    {
+      "session": "outreach-agent-001 2026-04-21 03:05 CST",
+      "remoteok_status": "STALE - last_updated 1776710336 (2026-04-20 08:00 UTC). 2 jobs found but not actionable: VP Eng (Sureify, US-only), Customer Success Eng (Wrike, US-only).",
+      "remotive_status": "403 blocked this session",
+      "smtp_status": "BROKEN - 550 User has no permission since 2026-04-19 18:19 CST. TLfTvAJBC8QKxxre rejected. 48+ hours dead. PARTNER MUST REGENERATE at smtp.163.com -> Settings -> POP3/SMTP/IMAP -> Regenerate auth code.",
+      "new_remoteok_jobs": [
+        {
+          "id": "1131215",
+          "title": "VP of Engineering",
+          "company": "Sureify",
+          "location": "US",
+          "fit_score": 4,
+          "status": "skipped_us_only",
+          "notes": "VP Eng role, not IC. US-only."
+        },
+        {
+          "id": "1131211",
+          "title": "Customer Success Engineer",
+          "company": "Wrike",
+          "location": "US",
+          "fit_score": 3,
+          "status": "skipped_us_only",
+          "notes": "SaaS customer success, US-only."
+        }
+      ],
+      "proginn_status": "8 new jobs found (see fresh-leads.json and cn-leads.json). SMTP broken, 0 emails sent.",
+      "emails_sent_this_session": 0,
+      "action_items": [
+        "CRITICAL: Regenerate 163.com SMTP auth code",
+        "HIGH: 186533 (以图搜图 ¥18-30K, CLIP向量检索 perfect match)",
+        "HIGH: 186470 (前世身份卡 ¥6-12K, 八字+DeepSeek perfect match)",
+        "HIGH: 186500 (短剧转码, FFmpeg+Playwright)",
+        "HIGH: 42759 (少儿英语App, FFmpeg)",
+        "HIGH: 42771 (GCP代理后端, ¥12-18K full-time)",
+        "HIGH: 42778 (GCP架构师, ¥12-18K)"
+      ]
+    }
+  ],
+  "jobs_appended_2026-04-20":
+    {
+      "session": "outreach-agent-001 2026-04-20 07:04 CST",
+      "remoteok_status": "FULLY STALE - last_updated 1776585633 (2026-04-18 08:00 UTC). No new engineering jobs. Eleks/TrueML/Wingspan same as Apr 15-16.",
+      "proginn_status": "6 new jobs found (see cn-leads.json jobs_appended_2026-04-20). 0 emails sent - SMTP broken.",
+      "smtp_status": "BROKEN - 550 User has no permission. TLfTvAJBC8QKxxre rejected all 6 sends. Down since 2026-04-19 18:19 CST.",
+      "emails_sent_this_session": 0,
+      "new_cold_outreach": [],
+      "action_items": [
+        "CRITICAL: Regenerate 163.com authorization code at smtp.163.com settings",
+        "6 drafted emails ready to send once SMTP is restored (see cn-leads.json)",
+        "RemoteOK: no new jobs - all stale"
+      ]
+    }
+  ],
+  "jobs_appended_2026-04-19-evening": [
+    {
+      "session": "outreach-agent-001 2026-04-19 18:19 CST",
+      "remoteok_status": "FULLY STALE - last_updated 1776585633 (2026-04-18 08:00 UTC). Only jobs: Wrike Customer Success (US-restricted), UJET SRE (Austin TX, on-site), Insider One Golang (Turkey-remote). No actionable.",
+      "proginn_status": "3 new listings found (see cn-leads.json jobs_appended_2026-04-19-evening). SMTP BROKEN - 550 User has no permission.",
+      "new_proginn_jobs_summary": [
+        {
+          "project_id": "42759",
+          "title": "少儿英语App配音功能 (uniapp + FFmpeg)",
+          "budget": "¥1-6K/月",
+          "fit_score": 9,
+          "status": "email_drafted_smtp_broken",
+          "email_subject": "少儿英语App配音功能 | FFmpeg音视频合成 + Python后端 | 可快速交付"
+        },
+        {
+          "project_id": "186470",
+          "title": "前世身份卡趣味测试H5 (Node.js/Python + DeepSeek)",
+          "budget": "¥6-12K/月",
+          "fit_score": 9,
+          "status": "not_contacted",
+          "email_subject": "前世身份卡H5 | 八字计算 + DeepSeek生成 + 微信分享 | Node.js/Python全栈"
+        },
+        {
+          "project_id": "186463",
+          "title": "快手APP短剧推广页面任务列表爬虫",
+          "budget": "¥1-6K/月",
+          "fit_score": 7,
+          "status": "not_contacted",
+          "email_subject": "快手短剧推广爬虫 | Python数据采集"
+        }
+      ],
+      "smtp_status": "BROKEN - 550 User has no permission. TLfTvAJBC8QKxxre suddenly rejected despite working all week. Possible 163 rate limit or temporary block.",
+      "emails_sent_this_session": 0
+    }
   ]
 }

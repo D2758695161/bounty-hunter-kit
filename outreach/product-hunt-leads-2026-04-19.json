@@ -1,0 +1,107 @@
+[
+  {
+    "name": "CraftBot",
+    "url": "https://www.producthunt.com/posts/craftbot",
+    "description": "Self-hosted AI assistant — deploy your own AI bot with custom knowledge bases, full data ownership",
+    "developerNeeds": "API integrations, webhook connectors, database backends, self-hosting deployment scripts",
+    "contact": "Product Hunt page / developer contact via PH listing"
+  },
+  {
+    "name": "Cloudflare Agent-Ready Scanner",
+    "url": "https://www.producthunt.com/posts/cloudflare-agent-ready-scanner",
+    "description": "Scanner tool that prepares websites for AI agent interaction — makes any site agent-ready",
+    "developerNeeds": "Cloudflare Workers API, browser automation, site scanning APIs, agent protocol standards (MCP, ANP)",
+    "contact": "Cloudflare Developer Docs / Product Hunt"
+  },
+  {
+    "name": "Vercel Flags",
+    "url": "https://www.producthunt.com/posts/vercel-flags",
+    "description": "Feature flagging solution from Vercel — instant rollouts, A/B testing, percentage splits",
+    "developerNeeds": "SDK integrations (React, Next.js, Node), REST/GraphQL API, webhook event system",
+    "contact": "vercel.com/flags, docs.vercel.com"
+  },
+  {
+    "name": "React Email 6.0",
+    "url": "https://www.producthunt.com/posts/react-email-6-0",
+    "description": "Write emails with React — open-source React email components by Resend, now v6 with major improvements",
+    "developerNeeds": "React component library contributors, email API integrations (Resend, SendGrid), MJML compatibility",
+    "contact": "resend.com / github.com/resend"
+  },
+  {
+    "name": "Claude Design by Anthropic",
+    "url": "https://www.producthunt.com/posts/claude-design-anthropic",
+    "description": "Anthropic's design tool powered by Claude — AI-assisted UI design and prototyping",
+    "developerNeeds": "Design tool integrations, API access for AI capabilities, Figma/plugin ecosystem",
+    "contact": "anthropic.com / Product Hunt discussion"
+  },
+  {
+    "name": "Midnight Eclipse Bounty - Compact Language Tutorial",
+    "url": "https://github.com/midnight-ntwrk/eclipse-bounties/issues/320",
+    "description": "$500-700 NIGHT tokens for writing a tutorial on Midnight Compact language — tutorial writing task",
+    "developerNeeds": "Tutorial writing, documentation, Midnight Compact language expertise, developer education",
+    "contact": "github.com/midnight-ntwrk/eclipse-bounties"
+  },
+  {
+    "name": "Dasharo Firmware Bounties",
+    "url": "https://github.com/Dasharo/dasharo",
+    "description": "Open-source firmware with active bounty labels for contributors — multiple open issues",
+    "developerNeeds": "Firmware development, ARM/RISC-V, security research, documentation, UEFI/BIOS expertise",
+    "contact": "github.com/Dasharo/dasharo/issues"
+  },
+  {
+    "name": "Claude Code Pentest MCP - CarbeneAI/Talon",
+    "url": "https://github.com/CarbeneAI/Talon",
+    "description": "Claude Code plugin for penetration testing via MCP protocol — new repo from April 17",
+    "developerNeeds": "MCP server development, pentest tool integrations, security testing, Claude Code skill development",
+    "contact": "github.com/CarbeneAI/Talon"
+  },
+  {
+    "name": "algora-io/algora",
+    "url": "https://github.com/algora-io/algora",
+    "description": "Paid OSS bounty platform — hire top 1% engineers for bounty-based contributions",
+    "developerNeeds": "Full-stack devs, bounty platform integrations, payment systems, GitHub API integrations",
+    "contact": "github.com/algora-io/algora / algora.io"
+  },
+  {
+    "name": "moogento/bounty",
+    "url": "https://github.com/moogento/bounty",
+    "description": "Bug-hunting agent bounty system — newly created bounty platform for automated bug detection",
+    "developerNeeds": "Agent system development, bug detection algorithms, bounty tracking, API development",
+    "contact": "github.com/moogento/bounty"
+  },
+  {
+    "name": "BountyForge - Claude Code Bug Bounty",
+    "url": "https://github.com/Gabson0x/bountyforge",
+    "description": "Claude Code plugin for parallelized smart contract audits — EVM, Move, Solana, TRON support",
+    "developerNeeds": "Claude Code plugin development, smart contract audit modules, platform integrations (HackerOne, Bugcrowd)",
+    "contact": "github.com/Gabson0x/bountyforge"
+  },
+  {
+    "name": "Gabson0x/BountyForge",
+    "url": "https://github.com/Gabson0x/bountyforge",
+    "description": "All-round bug bounty skill for Claude Code — parallelized agents for smart contract and web/API security",
+    "developerNeeds": "EVM/Solana/Move/TRON smart contract auditing, web security testing, MCP tool development",
+    "contact": "Open GitHub issue / fork and contribute"
+  },
+  {
+    "name": "Thunderbolt - Thunderbird AI Extension",
+    "url": "https://github.com/thunderbird/thunderbolt",
+    "description": "AI You Control: Choose your models, own your data, eliminate vendor lock-in — Thunderbird extension",
+    "developerNeeds": "AI integration developers, Thunderbird extension APIs, email processing, privacy-preserving AI",
+    "contact": "github.com/thunderbird/thunderbolt"
+  },
+  {
+    "name": "MemPalace/mempalace",
+    "url": "https://github.com/MemPalace/mempalace",
+    "description": "Local-first AI memory system for coding agents — 96.6% R@5 on LongMemEval, pluggable ChromaDB/MCP",
+    "developerNeeds": "Python backend, MCP tools, knowledge graph development, ChromaDB integration, benchmark reproducibility",
+    "contact": "discord.com/invite/ycTQQCu6kn"
+  },
+  {
+    "name": "TIGER-AI-Lab/RationalRewards",
+    "url": "https://github.com/TIGER-AI-Lab/RationalRewards",
+    "description": "AI research repo focused on rational reward systems — 81 stars, fresh April 2026",
+    "developerNeeds": "AI/ML research contributions, reward mechanism design, Python research code",
+    "contact": "github.com/TIGER-AI-Lab/RationalRewards"
+  }
+]

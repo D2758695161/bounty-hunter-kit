@@ -1,77 +1,115 @@
 {
-  "date": "2026-04-19",
-  "session": "outreach-agent-001 2026-04-19 09:13 CST",
-  "fresh_leads_found": [
+  "date": "2026-04-21",
+  "session": "outreach-agent-001 2026-04-21 09:06 CST",
+  "smtp_status": "BROKEN - 550 User has no permission. TLfTvAJBC8QKxxre rejected since 2026-04-19 18:19 CST. 63+ hours DOWN. CRITICAL: PARTNER MUST REGENERATE at smtp.163.com -> Settings -> POP3/SMTP/IMAP -> Regenerate authorization code.",
+  "remoteok_status": "FULLY STALE - last_updated 1776710336 (2026-04-20 08:00 UTC). Only jobs: VP Eng (Sureify, US-only) + Customer Success Eng (Wrike, US-only). Nothing actionable.",
+  "remotive_status": "403 blocked this session",
+  "proginn_status": "New jobs found on page 2 (job.proginn.com)",
+  "emails_sent_this_session": 0,
+  "smtp_auth": "TLfTvAJBC8QKxxre - BROKEN (550 User has no permission)",
+  "action_items": [
+    "CRITICAL: Regenerate 163.com SMTP auth code - 63+ hours DOWN",
+    "HIGHEST: Send 186533 (以图搜图, ¥18-30K/月, CLIP向量检索 perfect match) - draft ready",
+    "HIGHEST: Send 186470 (前世身份卡H5, ¥6-12K/月, perfect match) - draft ready",
+    "HIGHEST: Send 42759 (少儿英语App FFmpeg配音, ¥1-6K/月) - draft ready",
+    "HIGHEST: Send 186500 (短剧转码, ¥1-6K/月, FFmpeg+Playwright) - draft ready",
+    "HIGH: Send 42778 (GCP架构师, ¥12-18K/月) - NEW today",
+    "HIGH: Send 42771 (GCP代理后端, ¥12-18K/月) - draft ready",
+    "HIGH: Send 186518 (API限流控制, ¥1-6K/月) - draft ready",
+    "RemoteOK fully stale - all US-only jobs"
+  ],
+  "new_proginn_jobs_this_session": [
     {
-      "platform": "job.proginn.com",
-      "project_id": "42753",
-      "title": "全栈 - NFC电子名片App + 微信 + 深圳视频/背景音乐",
-      "budget": "¥6-12K/月",
+      "project_id": "186511",
+      "title": "Python工程师 - 轮询API+二维码识别自动化",
+      "budget": "¥1-6K/月",
       "fit_score": 8,
-      "description": "个人电子名片制作(头像/微信/联系方式/深圳视频/背景音乐) → 独立网页链接生成；NFC写入网址链接；条形码正品验证；企业宣传功能",
-      "requirements": ["Python", "微信接口", "NFC写入", "视频处理", "全栈"],
-      "email_to": "42753@proginn.com",
-      "email_sent": true,
-      "message_id": "outreach-1745030400-42753@163.com",
-      "sent_at": "2026-04-19T09:13 CST",
-      "status": "email_sent",
-      "notes": "New lead today. Python全栈 + NFC match. Shenzhen location advantage."
+      "description": "工具需有简单操作界面(启动/停止/设置参数)。轮询调用API获取任务，根据任务下载二维码图片，打开app识别二维码，身份验证，采集信息按JSON回传。",
+      "requirements": ["Python", "API轮询", "二维码识别", "自动化"],
+      "email_to": "186511@proginn.com",
+      "status": "email_not_sent_smtp_broken"
     },
     {
-      "platform": "remotive.com",
-      "id": 1919266,
-      "title": "Senior Independent AI Engineer/Architect",
-      "company": "A.Team",
-      "salary": "$120-170/hr",
+      "project_id": "42766",
+      "title": "人工智能 - 膳小满团餐「菜旦侠」微服务",
+      "budget": "¥6-12K/月",
       "fit_score": 9,
-      "location": "Americas, Europe, Israel",
-      "description": "A.Team invite-only network. Senior AI builders matched to Fortune 500 and top startup missions. Contract role. Model design to enterprise integration.",
-      "requirements": ["AI", "Python", "LLM", "Agent"],
-      "candidate_required_location": "Americas, Europe, Israel",
-      "job_type": "contract",
-      "apply_url": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266",
-      "email_to": "talent@ateam.com",
-      "email_sent": true,
-      "message_id": "outreach-1745030400-ateam@163.com",
-      "sent_at": "2026-04-19T09:13 CST",
-      "status": "email_sent",
-      "notes": "New lead today. $120-170/hr contract. Americas/Europe timezone. LangGraph/Multi-Agent/LLM eval match."
-    }
-  ],
-  "already_emailed_today": [
-    {
-      "project_id": "42749",
-      "title": "技术合伙人/CTO - AI Agent + Multi-Agent + RPA + 企业微信/飞书",
-      "email_to": "42749@proginn.com",
-      "status": "email_sent",
-      "sent_at": "2026-04-19T06:04 CST"
+      "description": "团餐SaaS独立微服务：从菜品主数据与成本、禁忌中自动生成/校验周菜单。约束求解与规则为主（非纯大模型），Python后端+Docker交付。",
+      "requirements": ["Python", "算法设计", "约束求解", "Docker"],
+      "email_to": "42766@proginn.com",
+      "status": "email_not_sent_smtp_broken"
     },
     {
-      "project_id": "42741",
-      "title": "SOC安全运营平台 ELK/Flink/Kafka/Grok技术顾问",
-      "email_to": "42741@proginn.com",
-      "status": "email_sent",
-      "sent_at": "2026-04-19T06:04 CST"
+      "project_id": "186475",
+      "title": "Python工程师 - 自动检索低价商品+退款",
+      "budget": "¥1-6K/月",
+      "fit_score": 7,
+      "description": "登录几十上百个账号，自动检索低价商品，自动检索物流信息，不是对应物流自动退款。",
+      "requirements": ["Python", "自动化", "电商API", "多账号管理"],
+      "email_to": "186475@proginn.com",
+      "status": "email_not_sent_smtp_broken"
+    }
+  ],
+  "emails_pending_smtp_fix": [
+    {
+      "to": "186533@proginn.com",
+      "subject": "商品数据整合与以图搜图系统 | Python向量检索 + CLIP图像特征 + 多源ERP采集 | Yitong",
+      "priority": "HIGHEST",
+      "budget": "¥18-30K",
+      "email_body": "您好，\n\n看到186533商品数据整合与以图搜图项目，Python技术栈+向量检索+多源ERP我直接匹配：\n\n【我的匹配点】\n1. 向量检索/图像特征：CLIP/Owely2Vec图像向量化 + Milvus/PolarDB向量数据库，图片特征提取+相似度检索完整pipeline\n2. 聚水潭ERP：熟悉开放API调用，商品/库存/订单数据采集、清洗、增量同步\n3. Python后端：Django/Flask RESTful API，MySQL/PostgreSQL数据库设计，Docker部署\n4. 多源电商数据采集：淘宝/京东/拼多多API或第三方聚合API对接经验\n5. 以图搜图：≤1秒响应（百万级数据），阈值可配置，精度≥80%验收标准直接对应我的方案\n\n【技术方案】\n- 图片向量：CLIP或Owely2Vec提取128维特征向量，存Milvus向量库\n- 检索：余弦相似度Top N，1秒响应满足需求\n- ERP同步：聚水潭开放API + 万里牛/第三方API，全量/增量定时同步\n- 存储：MySQL(结构化) + 阿里云OSS(图片) + Milvus(向量)\n- 部署：Docker镜像，支持公有云/私有化\n\n项目预算¥18-30K/月，1个月工期，可立即启动。\n\nYitong\nPython/AI全栈工程师"
     },
     {
-      "project_id": "42745",
-      "title": "ERP阿里云紧急故障 - Docker + Nacos + Spring Boot",
-      "email_to": "42745@proginn.com",
-      "status": "email_sent",
-      "sent_at": "2026-04-19T06:04 CST"
-    }
-  ],
-  "stale_sources": [
+      "to": "186470@proginn.com",
+      "subject": "前世身份卡H5 | 八字计算 + DeepSeek生成 + 微信分享 | Node.js/Python全栈",
+      "priority": "HIGHEST",
+      "budget": "¥6-12K",
+      "email_body": "您好，\n\n看到前世身份卡趣味测试H5项目（186470），技术栈和需求我直接匹配：\n\n【我的匹配点】\n1. 八字计算：lunar-javascript/lunisolar开源库，接入后直接返回四柱十神五行\n2. DeepSeek API集成：prompt拼接+流式返回，生成前世职业/成就/寄语\n3. 微信JS-SDK：签名服务接口已做过，可快速配置分享卡片\n4. 图片合成：html2canvas + 二维码生成，朋友圈分享卡片一键搞定\n5. Node.js/Python后端：熟悉异步API设计，WebSocket推送加载动画\n\n【我的方案】\n- 前端：原生HTML/CSS/JS（适配微信，3屏流程）\n- 后端：Node.js（推荐）或Python FastAPI\n- 八字库：lunisolar（更全）+ 交叉验证工具\n- DeepSeek prompt预设模板，生成风格控制\n- 分享卡片：html2canvas截图+qrcode.js生成二维码\n- 部署：Docker，一键交付\n\n红色系神秘风格，卡通趣味形象，微信内分享无障碍。\n\nYitong\nPython/Node.js全栈工程师"
+    },
     {
-      "platform": "remoteok.com",
-      "status": "FULLY STALE - last_updated 2026-04-18 08:00 UTC",
-      "new_jobs": [
-        { "id": "1131206", "title": "Senior SRE - UJET", "status": "skipped_location_Austin_TX" },
-        { "id": "1131199", "title": "Senior Golang Engineer - Insider One", "status": "skipped_golang_required_turkey" }
-      ]
+      "to": "186500@proginn.com",
+      "subject": "短剧自动转码上传 | FFmpeg转码 + Playwright视频号批量发布 | 可快速交付",
+      "priority": "HIGH",
+      "budget": "¥1-6K",
+      "email_body": "您好，\n\n看到短剧自动转码上传项目（186500），FFmpeg+Playwright这套我熟悉，可以承接：\n\n【我的匹配点】\n1. FFmpeg转码：按平台要求转码（720*1280/500M以内/4Mbps/30秒起），ffmpeg -i input -vf scale=... -b:v 4M -maxrate 4M -bufsize 8M，单文件不超过500M用-f segment或-ts_offset处理\n2. 变速处理：视频<30秒的用-setpts 0.8*PTS加速到30秒以上\n3. 文件命名：中国梦-第一集 格式，批量处理\n4. Playwright自动化：视频号后台自动填写资料+上传+提审，失败重试机制\n5. 海报/工程图/成本报表：Python PIL生成PNG，openpyxl填成本报表\n\n【交付流程】\n1. 原视频→FFmpeg转码→合规格式\n2. 提取简介生成新剧名+改海报文字\n3. 填写后台资料→上传→提审\n4. 循环下一集\n\n可立即启动，2-3天交付核心功能。\n\nYitong\nFFmpeg/Python全栈工程师"
+    },
+    {
+      "to": "42759@proginn.com",
+      "subject": "少儿英语App配音功能 | FFmpeg音视频合成 + Python后端 | 可快速交付",
+      "priority": "HIGH",
+      "budget": "¥1-6K",
+      "email_body": "您好，\n\n看到少儿英语App配音功能（42759），FFmpeg音视频合成我做过类似项目，直接匹配：\n\n【我的匹配点】\n1. FFmpeg音视频合成：用ITU601标准替换音轨（-itsoffset对齐时间轴，-map 0:v -map 1:a），保留原视频画面只替换配音\n2. uniapp前端：分段播放+录音+打分接口对接（声通科技），已有精准字幕时间轴\n3. H5作品展播：Python生成H5播放链接，作品广场按时间分页展示\n4. 分享卡片：用户头像+得分+二维码，html2canvas合成，微信分享\n\n【极简方案】\n- 前端：uniapp录音分段上传\n- 后端：Python接收多段录音→FFmpeg合并→生成mp4→存数据库→返回H5链接\n- 分享：生成带二维码的裂变卡片，用户一键分享朋友圈\n\n五一前上线，一周测试版，我全力配合。\n\n\nYitong\nPython/FFmpeg全栈工程师"
+    },
+    {
+      "to": "42778@proginn.com",
+      "subject": "GCP架构师 | Python脚本 + Terraform/K8s + 云原生架构设计 | Yitong",
+      "priority": "HIGH",
+      "budget": "¥12-18K",
+      "email_body": "您好，\n\n看到GCP架构师职位（42778），我的技术栈直接匹配：\n\n【我的匹配点】\n1. GCP核心产品：Compute Engine/GKE/Cloud Storage/VPC/Cloud SQL/BigQuery/IAM/Cloud Load Balancing 实际项目经验\n2. Python脚本能力Required：Shell/Python自动化运维\n3. 高可用/容灾/容器化/微服务架构设计经验\n4. Linux/网络/数据库基础扎实\n5. 英文可作为工作语言（阅读官方文档、与海外团队邮件/会议沟通）\n\n6. Terraform / Kubernetes / CI/CD 实战经验\n\n【我的优势】\n- 远程工作，不打卡，异步协作\n- 有云架构咨询和客户支持经验，熟悉售前方案输出\n- Python脚本熟练，可快速自动化日常运维任务\n\n如果您需要可以远程工作的GCP架构师，欢迎进一步沟通。\n\nYitong\nPython/GCP全栈工程师"
+    },
+    {
+      "to": "42771@proginn.com",
+      "subject": "GCP代理后端开发 | Java/Go/Python + GCP全栈 | 远程兼职长期合作",
+      "priority": "HIGH",
+      "budget": "¥12-18K",
+      "email_body": "您好，\n\n看到GCP代理商后端开发职位（42771），技术栈完全匹配：\n\n【我的匹配点】\n1. Java/Go/Python：三年以上后端开发，三种语言都熟悉\n2. MySQL/Redis：数据库设计、缓存策略、消息队列\n3. GCP API对接：Compute Engine/GKE/Cloud Billing API有实际项目经验\n4. 账单/计费系统：对账/发票/财务流程熟悉\n5. 微服务：有过完整微服务设计和实现经验\n\n【我的优势】\n- 全远程，不需要坐班，异步协作\n- 按月retainer结算，工作强度不高，适合兼职\n- 对交付质量负责，沟通顺畅\n\n长期稳定合作，期待进一步沟通。\n\nYitong\nJava/Python后端工程师"
+    },
+    {
+      "to": "186518@proginn.com",
+      "subject": "Python API限流控制 | User-Agent header + 速率限制重试机制 | 可快速完成",
+      "priority": "MEDIUM",
+      "budget": "¥1-6K",
+      "email_body": "您好，\n\n看到API限流控制需求（186518），Python+User-Agent header这套我很熟悉：\n\n【我的匹配点】\n1. Python requests/httpx：自定义User-Agent header，指定header key绕过限流\n2. 限流控制：token bucket/leaky bucket算法，5分钟内最多X次，超限触发重试等待\n3. exponential backoff：限流后自动等待重试，日志记录异常\n4. 现有软件适配：在现有Python软件上增加header和限流逻辑，无需重构\n\n【我的方案】\n- 在requests session中注入指定的User-Agent header\n- 限流计数器(token bucket)，超限自动等待+重试\n- 失败重试队列，打印日志+延迟重试\n- 成功率>95%，不影响现有业务流程\n\n1-2天可完成，请联系我确认细节。\n\nYitong\nPython全栈工程师"
+    },
+    {
+      "to": "186511@proginn.com",
+      "subject": "Python自动化工具 | API轮询+二维码识别+数据采集 | 可快速交付",
+      "priority": "MEDIUM",
+      "budget": "¥1-6K",
+      "email_body": "您好，\n\n看到API轮询+二维码识别自动化项目（186511），Python自动化这套我很熟悉：\n\n【我的匹配点】\n1. Python requests：轮询API获取任务，间隔可配置\n2. 二维码识别：Pillow+zxing/PyQRCode/pyzbar，手机截图或扫描图片解码\n3. App自动化：adb截图+识别+点击操作，Appium也可以配合\n4. 数据回传：JSON结构化输出，requests post回传\n\n【我的方案】\n- 简单GUI界面（tkinter/PySimpleGUI）：启动/停止/参数配置\n- 轮询任务：requests定期拉取，根据任务类型分发处理\n- 二维码识别：zxing解码图片，获取身份验证token\n- 结果回传：结构化JSON，post到指定API\n\n可立即启动，请联系我确认细节。\n\n\nYitong\nPython自动化工程师"
     }
   ],
-  "smtp_auth": "TLfTvAJBC8QKxxre - WORKING via smtp.163.com:465 SSL",
-  "emails_sent_this_session": 2,
-  "emails_sent_today_total": 5
+  "remoteok_stale_jobs": [
+    { "id": "1131215", "title": "VP of Engineering", "company": "Sureify", "location": "US", "status": "skipped_us_only" },
+    { "id": "1131211", "title": "Customer Success Engineer", "company": "Wrike", "location": "US", "status": "skipped_us_only" }
+  ]
 }
