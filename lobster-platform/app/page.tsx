@@ -7,6 +7,7 @@ import { motion, useInView, AnimatePresence } from "framer-motion";
 import FinalSprint from "./components/FinalSprint";
 import Week3WrapReport from "./components/Week3WrapReport";
 import LiveMilestone from "./components/LiveMilestone";
+import Week4SprintAttack from "./components/Week4SprintAttack";
 
 // ─── Bubbles Background ───────────────────────────────────────────────────
 function Bubbles() {
@@ -553,10 +554,13 @@ function Hero({ onCTAClick }: { onCTAClick: () => void }) {
   );
 }
 
-// ─── Final 10 Days Sprint Banner ─────────────────────────────────────────
+// ─── Final Sprint Banner (dynamic — April 1-30) ─────────────────────────────
 function FinalSprintBanner() {
-  const daysLeft = 10;
-  const currentDay = 20;
+  const todayMs = Date.now();
+  const apr1 = new Date("2026-04-01T00:00:00+08:00").getTime();
+  const apr30 = new Date("2026-04-30T23:59:59+08:00").getTime();
+  const daysLeft = Math.max(0, Math.ceil((apr30 - todayMs) / (1000 * 60 * 60 * 24)));
+  const currentDay = Math.min(30, Math.max(1, Math.floor((todayMs - apr1) / (1000 * 60 * 60 * 24)) + 1));
   const totalPrize = 16442;
   const topUp = 15000;
   
@@ -587,7 +591,7 @@ function FinalSprintBanner() {
         <div className="bg-gradient-to-r from-orange-500/20 via-orange-500/10 to-orange-500/20 px-8 py-3 border-b border-orange-500/20">
           <div className="flex items-center justify-center gap-3">
             <span className="text-orange-400 animate-pulse text-sm">●</span>
-            <span className="text-orange-300 text-xs font-black tracking-widest uppercase">🏁 April 漂流大赛 · 最后 10 天冲刺</span>
+            <span className="text-orange-300 text-xs font-black tracking-widest uppercase">🏁 April 漂流大赛 · 最后 {daysLeft} 天冲刺</span>
             <span className="text-orange-400 animate-pulse text-sm">●</span>
           </div>
         </div>
@@ -4529,6 +4533,7 @@ export default function Home() {
 
       <Hero onCTAClick={() => setModalOpen(true)} />
       <FinalSprintBanner />
+      <Week4SprintAttack />
       <PlatformPulse />
       <AprilProgress />
       <MidMonthMomentum />
